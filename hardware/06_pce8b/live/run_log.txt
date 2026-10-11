@@ -1,0 +1,203 @@
+==== 开始 2026-10-10 19:35:43 cwd= E:\000量子项目决赛预备\2.QuantumRouteForge：基于精简版增添实验及结果（选择观看）\QuantumRouteForge研究复现包
+本地检查：102 个任务，失败 0 个
+Baihua configuration loading done!
+The last calibration time was 2026-10-10 17:34:51
+Dongling configuration loading done!
+The last calibration time was 2026-10-10 17:34:52
+第 1 轮候选 Baihua：链 [109, 110, 123, 124, 125, 126, 127, 128] CZ 保真度 [0.987, 0.987, 0.988, 0.99, 0.989, 0.996, 0.99] 总保真度 0.863 得分 -0.147
+第 1 轮候选 Dongling：链 [2, 9, 3, 10, 4, 11, 5, 12] CZ 保真度 [0.974, 0.979, 0.988, 0.984, 0.982, 0.979, 0.985] 总保真度 0.771 得分 -1.017
+第 1 轮检测：Baihua [109, 110, 123, 124, 125, 126, 127, 128]
+已提交 pre_Baihua_109-110-123-124-125-126-127-128_diag_low4 -> 2610101935453448487
+已提交 pre_Baihua_109-110-123-124-125-126-127-128_diag_q0q1q4 -> 2610101935466792872
+收到 pre_Baihua_109-110-123-124-125-126-127-128_diag_low4 status=finished shots=1024
+收到 pre_Baihua_109-110-123-124-125-126-127-128_diag_q0q1q4 status=finished shots=1024
+  位序诊断 diag_low4: 实测最多 00001111 占比 0.71 → c7…c0
+  位序诊断 diag_q0q1q4: 实测最多 00010011 占比 0.81 → c7…c0
+已提交 chk1_Baihua_even_firstX_r1 -> 2610101948082090161
+已提交 chk1_Baihua_even_firstX_r2 -> 2610101948084764277
+已提交 chk1_Baihua_even_firstY_r1 -> 2610101948096059135
+已提交 chk1_Baihua_even_firstY_r2 -> 2610101948098710019
+已提交 chk1_Baihua_even_secondX_r1 -> 2610101948101430635
+已提交 chk1_Baihua_even_secondX_r2 -> 2610101948104060513
+已提交 chk1_Baihua_even_secondY_r1 -> 2610101948106731002
+已提交 chk1_Baihua_even_secondY_r2 -> 2610101948109533421
+已提交 chk1_Baihua_odd_firstX_r1 -> 2610101948112212324
+已提交 chk1_Baihua_odd_firstX_r2 -> 2610101948114831242
+已提交 chk1_Baihua_odd_firstY_r1 -> 2610101948127151086
+已提交 chk1_Baihua_odd_firstY_r2 -> 2610101948139959533
+已提交 chk1_Baihua_odd_secondX_r1 -> 2610101948143012392
+已提交 chk1_Baihua_odd_secondX_r2 -> 2610101948145662458
+已提交 chk1_Baihua_odd_secondY_r1 -> 2610101948148910028
+已提交 chk1_Baihua_odd_secondY_r2 -> 2610101948162809872
+收到 chk1_Baihua_even_firstX_r1 status=finished shots=1024
+收到 chk1_Baihua_even_firstX_r2 status=finished shots=1024
+收到 chk1_Baihua_even_firstY_r1 status=finished shots=1024
+收到 chk1_Baihua_even_firstY_r2 status=finished shots=1024
+收到 chk1_Baihua_even_secondX_r1 status=finished shots=1024
+收到 chk1_Baihua_even_secondX_r2 status=finished shots=1024
+收到 chk1_Baihua_even_secondY_r1 status=finished shots=1024
+收到 chk1_Baihua_even_secondY_r2 status=finished shots=1024
+收到 chk1_Baihua_odd_firstX_r1 status=finished shots=1024
+收到 chk1_Baihua_odd_firstX_r2 status=finished shots=1024
+收到 chk1_Baihua_odd_firstY_r1 status=finished shots=1024
+收到 chk1_Baihua_odd_firstY_r2 status=finished shots=1024
+收到 chk1_Baihua_odd_secondX_r1 status=finished shots=1024
+收到 chk1_Baihua_odd_secondX_r2 status=finished shots=1024
+收到 chk1_Baihua_odd_secondY_r1 status=finished shots=1024
+收到 chk1_Baihua_odd_secondY_r2 status=finished shots=1024
+  边 Q109-Q110（逻辑 0-1）：条件相位偏差 -0.08/-0.06，单比特相位偏差 +0.05/+0.07，最大 0.08 → 通过
+  边 Q123-Q124（逻辑 2-3）：条件相位偏差 -0.15/-0.18，单比特相位偏差 +0.02/+0.40，最大 0.40 → 不通过
+  边 Q125-Q126（逻辑 4-5）：条件相位偏差 +0.02/-0.05，单比特相位偏差 -0.07/+0.01，最大 0.07 → 通过
+  边 Q127-Q128（逻辑 6-7）：条件相位偏差 -2.78/-3.01，单比特相位偏差 -0.62/+1.20，最大 3.01 → 不通过
+  边 Q110-Q123（逻辑 1-2）：条件相位偏差 -0.13/-0.15，单比特相位偏差 +0.01/+0.11，最大 0.15 → 通过
+  边 Q124-Q125（逻辑 3-4）：条件相位偏差 -0.20/+0.05，单比特相位偏差 +0.29/-0.04，最大 0.29 → 通过
+  边 Q126-Q127（逻辑 5-6）：条件相位偏差 -0.08/+0.01，单比特相位偏差 +0.05/-0.07，最大 0.08 → 通过
+  有 2 条边不通过，排除后重新选链。
+第 2 轮候选 Baihua：链 [136, 137, 138, 139, 140, 153, 152, 151] CZ 保真度 [0.996, 0.992, 0.99, 0.987, 0.98, 0.988, 0.991] 总保真度 0.858 得分 -0.153
+第 2 轮候选 Dongling：链 [2, 9, 3, 10, 4, 11, 5, 12] CZ 保真度 [0.974, 0.979, 0.988, 0.984, 0.982, 0.979, 0.985] 总保真度 0.771 得分 -1.017
+第 2 轮检测：Baihua [136, 137, 138, 139, 140, 153, 152, 151]
+已提交 pre_Baihua_136-137-138-139-140-153-152-151_diag_low4 -> 2610101950185884005
+已提交 pre_Baihua_136-137-138-139-140-153-152-151_diag_q0q1q4 -> 2610101950198028357
+收到 pre_Baihua_136-137-138-139-140-153-152-151_diag_low4 status=finished shots=1024
+收到 pre_Baihua_136-137-138-139-140-153-152-151_diag_q0q1q4 status=finished shots=1024
+  位序诊断 diag_low4: 实测最多 00001111 占比 0.58 → c7…c0
+  位序诊断 diag_q0q1q4: 实测最多 00010011 占比 0.70 → c7…c0
+已提交 chk2_Baihua_even_firstX_r1 -> 2610101950530589733
+已提交 chk2_Baihua_even_firstX_r2 -> 2610101950533329097
+已提交 chk2_Baihua_even_firstY_r1 -> 2610101950536071207
+已提交 chk2_Baihua_even_firstY_r2 -> 2610101950538724552
+已提交 chk2_Baihua_even_secondX_r1 -> 2610101950541548527
+已提交 chk2_Baihua_even_secondX_r2 -> 2610101950544220878
+已提交 chk2_Baihua_even_secondY_r1 -> 2610101950546958299
+已提交 chk2_Baihua_even_secondY_r2 -> 2610101950557633501
+已提交 chk2_Baihua_odd_firstX_r1 -> 2610101950560342505
+已提交 chk2_Baihua_odd_firstX_r2 -> 2610101950563003971
+已提交 chk2_Baihua_odd_firstY_r1 -> 2610101950565721878
+已提交 chk2_Baihua_odd_firstY_r2 -> 2610101950568420512
+已提交 chk2_Baihua_odd_secondX_r1 -> 2610101950571319957
+已提交 chk2_Baihua_odd_secondX_r2 -> 2610101950574018219
+已提交 chk2_Baihua_odd_secondY_r1 -> 2610101950594509360
+已提交 chk2_Baihua_odd_secondY_r2 -> 2610101951013312912
+收到 chk2_Baihua_even_firstX_r1 status=finished shots=1024
+收到 chk2_Baihua_even_firstX_r2 status=finished shots=1024
+收到 chk2_Baihua_even_firstY_r1 status=finished shots=1024
+收到 chk2_Baihua_even_firstY_r2 status=finished shots=1024
+收到 chk2_Baihua_even_secondX_r1 status=finished shots=1024
+收到 chk2_Baihua_even_secondX_r2 status=finished shots=1024
+收到 chk2_Baihua_even_secondY_r1 status=finished shots=1024
+收到 chk2_Baihua_even_secondY_r2 status=finished shots=1024
+收到 chk2_Baihua_odd_firstX_r1 status=finished shots=1024
+收到 chk2_Baihua_odd_firstX_r2 status=finished shots=1024
+收到 chk2_Baihua_odd_firstY_r1 status=finished shots=1024
+收到 chk2_Baihua_odd_firstY_r2 status=finished shots=1024
+收到 chk2_Baihua_odd_secondX_r1 status=finished shots=1024
+收到 chk2_Baihua_odd_secondX_r2 status=finished shots=1024
+收到 chk2_Baihua_odd_secondY_r1 status=finished shots=1024
+收到 chk2_Baihua_odd_secondY_r2 status=finished shots=1024
+  边 Q136-Q137（逻辑 0-1）：条件相位偏差 -0.08/+0.01，单比特相位偏差 +0.16/+0.13，最大 0.16 → 通过
+  边 Q138-Q139（逻辑 2-3）：条件相位偏差 -0.43/-0.02，单比特相位偏差 +0.18/-0.01，最大 0.43 → 不通过
+  边 Q140-Q153（逻辑 4-5）：条件相位偏差 -0.15/-0.78，单比特相位偏差 +0.04/+0.31，最大 0.78 → 不通过
+  边 Q151-Q152（逻辑 6-7）：条件相位偏差 -0.17/-0.10，单比特相位偏差 +0.20/-0.20，最大 0.20 → 通过
+  边 Q137-Q138（逻辑 1-2）：条件相位偏差 -0.15/-0.32，单比特相位偏差 +0.22/+0.24，最大 0.32 → 不通过
+  边 Q139-Q140（逻辑 3-4）：条件相位偏差 +0.01/-0.14，单比特相位偏差 +0.06/+0.14，最大 0.14 → 通过
+  边 Q152-Q153（逻辑 5-6）：条件相位偏差 -0.45/-0.15，单比特相位偏差 +0.18/+0.45，最大 0.45 → 不通过
+  有 4 条边不通过，排除后重新选链。
+第 3 轮候选 Baihua：链 [13, 14, 15, 16, 17, 30, 29, 28] CZ 保真度 [0.996, 0.991, 0.992, 0.987, 0.972, 0.97, 0.995] 总保真度 0.822 得分 -0.196
+第 3 轮候选 Dongling：链 [2, 9, 3, 10, 4, 11, 5, 12] CZ 保真度 [0.974, 0.979, 0.988, 0.984, 0.982, 0.979, 0.985] 总保真度 0.771 得分 -1.017
+第 3 轮检测：Baihua [13, 14, 15, 16, 17, 30, 29, 28]
+已提交 pre_Baihua_13-14-15-16-17-30-29-28_diag_low4 -> 2610101952292865933
+已提交 pre_Baihua_13-14-15-16-17-30-29-28_diag_q0q1q4 -> 2610101952304494382
+收到 pre_Baihua_13-14-15-16-17-30-29-28_diag_low4 status=finished shots=1024
+收到 pre_Baihua_13-14-15-16-17-30-29-28_diag_q0q1q4 status=finished shots=1024
+  位序诊断 diag_low4: 实测最多 00001111 占比 0.61 → c7…c0
+  位序诊断 diag_q0q1q4: 实测最多 00010011 占比 0.67 → c7…c0
+已提交 chk3_Baihua_even_firstX_r1 -> 2610101953032508096
+已提交 chk3_Baihua_even_firstX_r2 -> 2610101953043607369
+已提交 chk3_Baihua_even_firstY_r1 -> 2610101953046278221
+已提交 chk3_Baihua_even_firstY_r2 -> 2610101953048878348
+已提交 chk3_Baihua_even_secondX_r1 -> 2610101953060358315
+已提交 chk3_Baihua_even_secondX_r2 -> 2610101953100980877
+已提交 chk3_Baihua_even_secondY_r1 -> 2610101953103613418
+已提交 chk3_Baihua_even_secondY_r2 -> 2610101953106295931
+已提交 chk3_Baihua_odd_firstX_r1 -> 2610101953108925118
+已提交 chk3_Baihua_odd_firstX_r2 -> 2610101953111579837
+已提交 chk3_Baihua_odd_firstY_r1 -> 2610101953122676759
+已提交 chk3_Baihua_odd_firstY_r2 -> 2610101953125328691
+已提交 chk3_Baihua_odd_secondX_r1 -> 2610101953128014920
+已提交 chk3_Baihua_odd_secondX_r2 -> 2610101953131463174
+已提交 chk3_Baihua_odd_secondY_r1 -> 2610101953135485133
+已提交 chk3_Baihua_odd_secondY_r2 -> 2610101953139284461
+收到 chk3_Baihua_even_firstX_r1 status=finished shots=1024
+收到 chk3_Baihua_even_firstX_r2 status=finished shots=1024
+收到 chk3_Baihua_even_firstY_r1 status=finished shots=1024
+收到 chk3_Baihua_even_firstY_r2 status=finished shots=1024
+收到 chk3_Baihua_even_secondX_r1 status=finished shots=1024
+收到 chk3_Baihua_even_secondX_r2 status=finished shots=1024
+收到 chk3_Baihua_even_secondY_r1 status=finished shots=1024
+收到 chk3_Baihua_even_secondY_r2 status=finished shots=1024
+收到 chk3_Baihua_odd_firstX_r1 status=finished shots=1024
+收到 chk3_Baihua_odd_firstX_r2 status=finished shots=1024
+收到 chk3_Baihua_odd_firstY_r1 status=finished shots=1024
+收到 chk3_Baihua_odd_firstY_r2 status=finished shots=1024
+收到 chk3_Baihua_odd_secondX_r1 status=finished shots=1024
+收到 chk3_Baihua_odd_secondX_r2 status=finished shots=1024
+收到 chk3_Baihua_odd_secondY_r1 status=finished shots=1024
+收到 chk3_Baihua_odd_secondY_r2 status=finished shots=1024
+  边 Q13-Q14（逻辑 0-1）：条件相位偏差 -0.12/-0.13，单比特相位偏差 +0.04/+0.04，最大 0.13 → 通过
+  边 Q15-Q16（逻辑 2-3）：条件相位偏差 -0.11/-0.10，单比特相位偏差 +0.12/-0.04，最大 0.12 → 通过
+  边 Q17-Q30（逻辑 4-5）：条件相位偏差 -0.22/-0.03，单比特相位偏差 +0.10/-0.02，最大 0.22 → 通过
+  边 Q28-Q29（逻辑 6-7）：条件相位偏差 -0.12/-0.15，单比特相位偏差 +0.11/-0.04，最大 0.15 → 通过
+  边 Q14-Q15（逻辑 1-2）：条件相位偏差 -0.09/-0.21，单比特相位偏差 +0.11/+0.14，最大 0.21 → 通过
+  边 Q16-Q17（逻辑 3-4）：条件相位偏差 -0.12/-0.12，单比特相位偏差 +0.01/+0.04，最大 0.12 → 通过
+  边 Q29-Q30（逻辑 5-6）：条件相位偏差 -0.06/-0.09，单比特相位偏差 +0.44/+0.04，最大 0.44 → 不通过
+  有 1 条边不通过，排除后重新选链。
+第 4 轮候选 Baihua：链 [56, 57, 58, 71, 72, 73, 74, 75] CZ 保真度 [0.978, 0.995, 0.989, 0.979, 0.984, 0.987, 0.989] 总保真度 0.819 得分 -0.200
+第 4 轮候选 Dongling：链 [2, 9, 3, 10, 4, 11, 5, 12] CZ 保真度 [0.974, 0.979, 0.988, 0.984, 0.982, 0.979, 0.985] 总保真度 0.771 得分 -1.017
+第 4 轮检测：Baihua [56, 57, 58, 71, 72, 73, 74, 75]
+已提交 pre_Baihua_56-57-58-71-72-73-74-75_diag_low4 -> 2610101954360862210
+已提交 pre_Baihua_56-57-58-71-72-73-74-75_diag_q0q1q4 -> 2610101954363557083
+收到 pre_Baihua_56-57-58-71-72-73-74-75_diag_low4 status=finished shots=1024
+收到 pre_Baihua_56-57-58-71-72-73-74-75_diag_q0q1q4 status=finished shots=1024
+  位序诊断 diag_low4: 实测最多 00001111 占比 0.70 → c7…c0
+  位序诊断 diag_q0q1q4: 实测最多 00010011 占比 0.70 → c7…c0
+已提交 chk4_Baihua_even_firstX_r1 -> 2610101955123072839
+已提交 chk4_Baihua_even_firstX_r2 -> 2610101955125739239
+已提交 chk4_Baihua_even_firstY_r1 -> 2610101955128472883
+已提交 chk4_Baihua_even_firstY_r2 -> 2610101955131262548
+已提交 chk4_Baihua_even_secondX_r1 -> 2610101955134385992
+已提交 chk4_Baihua_even_secondX_r2 -> 2610101955147165482
+已提交 chk4_Baihua_even_secondY_r1 -> 2610101955149828972
+已提交 chk4_Baihua_even_secondY_r2 -> 2610101955152912006
+已提交 chk4_Baihua_odd_firstX_r1 -> 2610101955155642371
+已提交 chk4_Baihua_odd_firstX_r2 -> 2610101955168747796
+已提交 chk4_Baihua_odd_firstY_r1 -> 2610101955171473588
+已提交 chk4_Baihua_odd_firstY_r2 -> 2610101955184198337
+已提交 chk4_Baihua_odd_secondX_r1 -> 2610101955196063975
+已提交 chk4_Baihua_odd_secondX_r2 -> 2610101955209660503
+已提交 chk4_Baihua_odd_secondY_r1 -> 2610101955212285902
+已提交 chk4_Baihua_odd_secondY_r2 -> 2610101955225076538
+收到 chk4_Baihua_even_firstX_r1 status=finished shots=1024
+收到 chk4_Baihua_even_firstX_r2 status=finished shots=1024
+收到 chk4_Baihua_even_firstY_r1 status=finished shots=1024
+收到 chk4_Baihua_even_firstY_r2 status=finished shots=1024
+收到 chk4_Baihua_even_secondX_r1 status=finished shots=1024
+收到 chk4_Baihua_even_secondX_r2 status=finished shots=1024
+收到 chk4_Baihua_even_secondY_r1 status=finished shots=1024
+收到 chk4_Baihua_even_secondY_r2 status=finished shots=1024
+收到 chk4_Baihua_odd_firstX_r1 status=finished shots=1024
+收到 chk4_Baihua_odd_firstX_r2 status=finished shots=1024
+收到 chk4_Baihua_odd_firstY_r1 status=finished shots=1024
+收到 chk4_Baihua_odd_firstY_r2 status=finished shots=1024
+收到 chk4_Baihua_odd_secondX_r1 status=finished shots=1024
+收到 chk4_Baihua_odd_secondX_r2 status=finished shots=1024
+收到 chk4_Baihua_odd_secondY_r1 status=finished shots=1024
+收到 chk4_Baihua_odd_secondY_r2 status=finished shots=1024
+  边 Q56-Q57（逻辑 0-1）：条件相位偏差 -0.17/-0.20，单比特相位偏差 +0.09/+0.09，最大 0.20 → 通过
+  边 Q58-Q71（逻辑 2-3）：条件相位偏差 -0.03/+0.01，单比特相位偏差 +0.54/+0.01，最大 0.54 → 不通过
+  边 Q72-Q73（逻辑 4-5）：条件相位偏差 -0.29/-0.11，单比特相位偏差 +0.18/+0.03，最大 0.29 → 通过
+  边 Q74-Q75（逻辑 6-7）：条件相位偏差 +0.04/-0.03，单比特相位偏差 +0.13/+0.02，最大 0.13 → 通过
+  边 Q57-Q58（逻辑 1-2）：条件相位偏差 -0.33/-0.16，单比特相位偏差 +0.12/+0.10，最大 0.33 → 不通过
+  边 Q71-Q72（逻辑 3-4）：条件相位偏差 +0.08/-0.13，单比特相位偏差 -0.01/+0.03，最大 0.13 → 通过
+  边 Q73-Q74（逻辑 5-6）：条件相位偏差 +0.06/-0.25，单比特相位偏差 -0.07/+0.13，最大 0.25 → 通过
+  有 2 条边不通过，排除后重新选链。
+没有找到所有边都通过检测的比特链（或诊断失败）：未提交实验任务。请把 live 文件夹发回 Claude。

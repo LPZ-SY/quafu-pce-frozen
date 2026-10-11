@@ -1,0 +1,348 @@
+==== 开始 2026-10-11 10:40:54 cwd= E:\000量子项目决赛预备\2.QuantumRouteForge：基于精简版增添实验及结果（选择观看）\QuantumRouteForge研究复现包
+本地检查：102 个任务，失败 0 个
+Shenglian configuration loading done!
+The last calibration time was 2026-10-11 08:40:05
+Baihua configuration loading done!
+The last calibration time was 2026-10-11 08:40:02
+Dongling configuration loading done!
+The last calibration time was 2026-10-11 08:41:06
+Shenglian：标定显示不可用的比特 [83]，连着它们的边不检测
+已提交 sv_Shenglian_diag -> 2610111041168043511
+已提交 sv_Shenglian_g0_firstX -> 2610111041171191360
+已提交 sv_Shenglian_g0_firstY -> 2610111041173789566
+已提交 sv_Shenglian_g0_secondX -> 2610111041176472080
+已提交 sv_Shenglian_g0_secondY -> 2610111041179095080
+已提交 sv_Shenglian_g1_firstX -> 2610111041181699421
+已提交 sv_Shenglian_g1_firstY -> 2610111041184317990
+已提交 sv_Shenglian_g1_secondX -> 2610111041187017548
+已提交 sv_Shenglian_g1_secondY -> 2610111041189756446
+已提交 sv_Shenglian_g2_firstX -> 2610111041192344302
+已提交 sv_Shenglian_g2_firstY -> 2610111041194940332
+已提交 sv_Shenglian_g2_secondX -> 2610111041197631475
+已提交 sv_Shenglian_g2_secondY -> 2610111041200324074
+Shenglian：普查任务 13 个（已返回的沿用，其余已提交）
+Baihua：标定显示不可用的比特 [66, 111]，连着它们的边不检测
+已提交 sv_Baihua_diag -> 2610111041202956591
+已提交 sv_Baihua_g0ax_firstX -> 2610111041205629227
+已提交 sv_Baihua_g0ax_firstY -> 2610111041208235025
+已提交 sv_Baihua_g0ax_secondX -> 2610111041210859437
+已提交 sv_Baihua_g0ax_secondY -> 2610111041213471176
+已提交 sv_Baihua_g0b_firstX -> 2610111041216099012
+已提交 sv_Baihua_g0b_firstY -> 2610111041218773066
+已提交 sv_Baihua_g0b_secondX -> 2610111041221407956
+已提交 sv_Baihua_g0b_secondY -> 2610111041224079490
+已提交 sv_Baihua_g1_firstX -> 2610111041226711787
+已提交 sv_Baihua_g1_firstY -> 2610111041238558574
+已提交 sv_Baihua_g1_secondX -> 2610111041241214136
+已提交 sv_Baihua_g1_secondY -> 2610111041243913162
+已提交 sv_Baihua_g2_firstX -> 2610111041246612825
+已提交 sv_Baihua_g2_firstY -> 2610111041249411178
+已提交 sv_Baihua_g2_secondX -> 2610111041252012725
+已提交 sv_Baihua_g2_secondY -> 2610111041254788533
+Baihua：普查任务 17 个（已返回的沿用，其余已提交）
+Dongling：标定显示不可用的比特 [0, 6, 13, 25, 32, 61, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83]，连着它们的边不检测
+已提交 sv_Dongling_diag -> 2610111041257747111
+已提交 sv_Dongling_g0_firstX -> 2610111041260457125
+已提交 sv_Dongling_g0_firstY -> 2610111041263139420
+已提交 sv_Dongling_g0_secondX -> 2610111041265845592
+已提交 sv_Dongling_g0_secondY -> 2610111041268528467
+已提交 sv_Dongling_g1_firstX -> 2610111041271330237
+已提交 sv_Dongling_g1_firstY -> 2610111041274021276
+已提交 sv_Dongling_g1_secondX -> 2610111041276690749
+已提交 sv_Dongling_g1_secondY -> 2610111041279395880
+Dongling：普查任务 9 个（已返回的沿用，其余已提交）
+10:41 Shenglian 普查：已完成 7/13
+10:41 Baihua 普查：已完成 2/17
+10:41 Dongling 普查：已完成 4/9
+
+========== Shenglian 普查结果已出 ==========
+Shenglian 普查（标定 2026-10-11 08:40:05）
+位序诊断（逐比特）：c_last_first；全 0 比特读成 1 的比例中位 0.101，超过 25% 的比特：[21, 22, 23, 24, 27, 37, 38, 39, 74]
+标定显示不可用的比特：[83]（连着它们的边不检测、不使用）
+66 条边分 3 组；6 条通过（≤0.3 弧度），60 条不通过，0 条没有结果。
+偏差最大的 8 条边：Q31-37（3.10），Q24-31（2.96），Q54-61（2.89），Q39-46（2.80），Q31-38（2.76），Q47-53（2.70），Q47-54（2.65），Q74-81（2.46）
+只用通过的边，找不到 8 比特链。
+
+
+========== Dongling 普查结果已出 ==========
+Dongling 普查（标定 2026-10-11 08:41:06）
+位序诊断（逐比特）：c_last_first；全 0 比特读成 1 的比例中位 0.062，超过 25% 的比特：[]
+标定显示不可用的比特：[0, 6, 13, 25, 32, 61, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83]（连着它们的边不检测、不使用）
+7 条边分 2 组；5 条通过（≤0.3 弧度），2 条不通过，0 条没有结果。
+偏差最大的 8 条边：Q5-12（0.52），Q2-9（0.36），Q4-10（0.30），Q5-11（0.27），Q3-9（0.19），Q3-10（0.18），Q4-11（0.08）
+只用通过的边，找不到 8 比特链。
+
+
+========== Baihua 普查结果已出 ==========
+Baihua 普查（标定 2026-10-11 08:40:02）
+位序诊断（逐比特）：c_last_first；全 0 比特读成 1 的比例中位 0.019，超过 25% 的比特：[]
+标定显示不可用的比特：[66, 111]（连着它们的边不检测、不使用）
+125 条边分 4 组；64 条通过（≤0.3 弧度），61 条不通过，0 条没有结果。
+偏差最大的 8 条边：Q127-128（3.07），Q80-81（2.94），Q119-120（2.30），Q39-40（2.10），Q147-148（2.05），Q148-149（1.68），Q0-1（1.46），Q92-93（1.31）
+只用通过的边，最好的 8 比特链：[68, 69, 70, 71, 72, 73, 74, 75]，CZ 总保真度 0.814
+
+
+========== 全部普查完成 ==========
+三块芯片的普查结果都已写入 live_1011 文件夹（survey_*.txt）。现在可以运行 run_pce8c_实验.bat。
+
+==== 开始 2026-10-11 10:43:59 cwd= E:\000量子项目决赛预备\2.QuantumRouteForge：基于精简版增添实验及结果（选择观看）\QuantumRouteForge研究复现包
+本地检查：102 个任务，失败 0 个
+第 1 轮候选 Baihua：链 [68, 69, 70, 71, 72, 73, 74, 75] CZ 保真度 [0.977, 0.995, 0.987, 0.979, 0.984, 0.987, 0.989] 总保真度 0.814 得分 -0.206
+第 1 轮检测：Baihua [68, 69, 70, 71, 72, 73, 74, 75]
+已提交 pre_Baihua_68-69-70-71-72-73-74-75_diag_low4 -> 2610111044004816545
+已提交 pre_Baihua_68-69-70-71-72-73-74-75_diag_q0q1q4 -> 2610111044007527484
+收到 pre_Baihua_68-69-70-71-72-73-74-75_diag_low4 status=finished shots=1024
+收到 pre_Baihua_68-69-70-71-72-73-74-75_diag_q0q1q4 status=finished shots=1024
+  位序诊断 diag_low4: 实测最多 00001111 占比 0.83 → c7…c0
+  位序诊断 diag_q0q1q4: 实测最多 00010011 占比 0.84 → c7…c0
+已提交 chk1_Baihua_even_firstX_r1 -> 2610111044321132357
+已提交 chk1_Baihua_even_firstX_r2 -> 2610111044323975553
+已提交 chk1_Baihua_even_firstY_r1 -> 2610111044326769381
+已提交 chk1_Baihua_even_firstY_r2 -> 2610111044329773968
+已提交 chk1_Baihua_even_secondX_r1 -> 2610111044332580613
+已提交 chk1_Baihua_even_secondX_r2 -> 2610111044335393328
+已提交 chk1_Baihua_even_secondY_r1 -> 2610111044338211122
+已提交 chk1_Baihua_even_secondY_r2 -> 2610111044341111976
+已提交 chk1_Baihua_odd_firstX_r1 -> 2610111044343976990
+已提交 chk1_Baihua_odd_firstX_r2 -> 2610111044346778449
+已提交 chk1_Baihua_odd_firstY_r1 -> 2610111044349639863
+已提交 chk1_Baihua_odd_firstY_r2 -> 2610111044352502152
+已提交 chk1_Baihua_odd_secondX_r1 -> 2610111044355333001
+已提交 chk1_Baihua_odd_secondX_r2 -> 2610111044358098345
+已提交 chk1_Baihua_odd_secondY_r1 -> 2610111044360956885
+已提交 chk1_Baihua_odd_secondY_r2 -> 2610111044363810387
+收到 chk1_Baihua_even_firstX_r1 status=finished shots=1024
+收到 chk1_Baihua_even_firstX_r2 status=finished shots=1024
+收到 chk1_Baihua_even_firstY_r1 status=finished shots=1024
+收到 chk1_Baihua_even_firstY_r2 status=finished shots=1024
+收到 chk1_Baihua_even_secondX_r1 status=finished shots=1024
+收到 chk1_Baihua_even_secondX_r2 status=finished shots=1024
+收到 chk1_Baihua_even_secondY_r1 status=finished shots=1024
+收到 chk1_Baihua_even_secondY_r2 status=finished shots=1024
+收到 chk1_Baihua_odd_firstX_r1 status=finished shots=1024
+收到 chk1_Baihua_odd_firstX_r2 status=finished shots=1024
+收到 chk1_Baihua_odd_firstY_r1 status=finished shots=1024
+收到 chk1_Baihua_odd_firstY_r2 status=finished shots=1024
+收到 chk1_Baihua_odd_secondX_r1 status=finished shots=1024
+收到 chk1_Baihua_odd_secondX_r2 status=finished shots=1024
+收到 chk1_Baihua_odd_secondY_r1 status=finished shots=1024
+收到 chk1_Baihua_odd_secondY_r2 status=finished shots=1024
+  边 Q68-Q69（逻辑 0-1）：条件相位偏差 +0.05/-0.08，单比特相位偏差 +0.10/+0.12，最大 0.12 → 通过
+  边 Q70-Q71（逻辑 2-3）：条件相位偏差 -0.04/+0.01，单比特相位偏差 +0.13/+0.00，最大 0.13 → 通过
+  边 Q72-Q73（逻辑 4-5）：条件相位偏差 -0.21/-0.15，单比特相位偏差 +0.15/+0.03，最大 0.21 → 通过
+  边 Q74-Q75（逻辑 6-7）：条件相位偏差 +0.01/+0.02，单比特相位偏差 +0.20/+0.04，最大 0.20 → 通过
+  边 Q69-Q70（逻辑 1-2）：条件相位偏差 -0.14/-0.09，单比特相位偏差 -0.01/-0.31，最大 0.31 → 不通过
+  边 Q71-Q72（逻辑 3-4）：条件相位偏差 +0.11/-0.15，单比特相位偏差 -0.01/+0.13，最大 0.15 → 通过
+  边 Q73-Q74（逻辑 5-6）：条件相位偏差 -0.14/+0.03，单比特相位偏差 +0.01/-0.05，最大 0.14 → 通过
+  有 1 条边不通过，排除后重新选链。
+没有找到所有边都通过检测的比特链（或诊断失败）：未提交实验任务。请把 live_1011 文件夹发回 Claude。
+==== 开始 2026-10-11 10:54:34 cwd= E:\000量子项目决赛预备\2.QuantumRouteForge：基于精简版增添实验及结果（选择观看）\QuantumRouteForge研究复现包
+本地检查：102 个任务，失败 0 个
+按用户决定直接使用： Baihua [68, 69, 70, 71, 72, 73, 74, 75] 未过线的边： {'69-70': 0.307}
+已提交 001 -> 2610111054348091865
+已提交 002 -> 2610111054350810060
+收到 001 status=finished shots=1024
+收到 002 status=finished shots=1024
+  位序诊断 diag_low4: 实测最多 00001111 占比 0.82 → c7…c0
+  位序诊断 diag_q0q1q4: 实测最多 00010011 占比 0.84 → c7…c0
+已提交 003 -> 2610111055065057773
+已提交 004 -> 2610111055068048790
+已提交 005 -> 2610111055070923598
+已提交 006 -> 2610111055073732790
+已提交 007 -> 2610111055076595390
+已提交 008 -> 2610111055080009320
+已提交 009 -> 2610111055082904440
+已提交 010 -> 2610111055085647027
+已提交 011 -> 2610111055088521336
+已提交 012 -> 2610111055091350613
+已提交 013 -> 2610111055094134329
+已提交 014 -> 2610111055098000608
+已提交 015 -> 2610111055101282320
+已提交 016 -> 2610111055104445571
+已提交 017 -> 2610111055108083983
+已提交 018 -> 2610111055110950245
+已提交 019 -> 2610111055114001581
+已提交 020 -> 2610111055116942892
+已提交 021 -> 2610111055119935933
+已提交 022 -> 2610111055122775110
+已提交 023 -> 2610111055125743285
+已提交 024 -> 2610111055129555233
+已提交 025 -> 2610111055132469937
+已提交 026 -> 2610111055135294292
+已提交 027 -> 2610111055139218050
+已提交 028 -> 2610111055141997468
+已提交 029 -> 2610111055145303717
+已提交 030 -> 2610111055148115029
+已提交 031 -> 2610111055151167751
+已提交 032 -> 2610111055154010825
+已提交 033 -> 2610111055156865348
+已提交 034 -> 2610111055159670814
+已提交 035 -> 2610111055163044289
+已提交 036 -> 2610111055165901398
+已提交 037 -> 2610111055168709172
+已提交 038 -> 2610111055171583402
+已提交 039 -> 2610111055174400679
+已提交 040 -> 2610111055177213702
+已提交 041 -> 2610111055180052382
+已提交 042 -> 2610111055182906330
+已提交 043 -> 2610111055185694290
+已提交 044 -> 2610111055188454917
+已提交 045 -> 2610111055191348324
+已提交 046 -> 2610111055194220420
+已提交 047 -> 2610111055196967801
+已提交 048 -> 2610111055200260335
+已提交 049 -> 2610111055203178664
+已提交 050 -> 2610111055205963656
+已提交 051 -> 2610111055208803390
+已提交 052 -> 2610111055211696148
+已提交 053 -> 2610111055214437908
+已提交 054 -> 2610111055217193941
+已提交 055 -> 2610111055219983515
+已提交 056 -> 2610111055222797914
+已提交 057 -> 2610111055225590094
+已提交 058 -> 2610111055228462403
+已提交 059 -> 2610111055231223463
+已提交 060 -> 2610111055234008024
+已提交 061 -> 2610111055236763435
+已提交 062 -> 2610111055239701326
+已提交 063 -> 2610111055242458808
+已提交 064 -> 2610111055245242863
+已提交 065 -> 2610111055248112979
+已提交 066 -> 2610111055250821953
+已提交 067 -> 2610111055253546499
+已提交 068 -> 2610111055256279898
+已提交 069 -> 2610111055259292937
+已提交 070 -> 2610111055262044521
+已提交 071 -> 2610111055264789740
+已提交 072 -> 2610111055267570155
+已提交 073 -> 2610111055270341631
+已提交 074 -> 2610111055273196286
+已提交 075 -> 2610111055275985655
+已提交 076 -> 2610111055279077408
+已提交 077 -> 2610111055282157488
+已提交 078 -> 2610111055284907485
+已提交 079 -> 2610111055287696577
+已提交 080 -> 2610111055290590451
+已提交 081 -> 2610111055293533262
+已提交 082 -> 2610111055296360722
+已提交 083 -> 2610111055299091645
+已提交 084 -> 2610111055301828503
+已提交 085 -> 2610111055304626702
+已提交 086 -> 2610111055307477999
+已提交 087 -> 2610111055310284153
+已提交 088 -> 2610111055313082431
+已提交 089 -> 2610111055316002349
+已提交 090 -> 2610111055318819922
+已提交 091 -> 2610111055321628827
+已提交 092 -> 2610111055324415476
+已提交 093 -> 2610111055327273144
+已提交 094 -> 2610111055330018278
+已提交 095 -> 2610111055332924928
+已提交 096 -> 2610111055335725255
+已提交 097 -> 2610111055338496814
+已提交 098 -> 2610111055341261082
+已提交 099 -> 2610111055343998500
+已提交 100 -> 2610111055346914319
+已提交 101 -> 2610111055349797866
+已提交 102 -> 2610111055352557197
+收到 003 status=finished shots=1024
+收到 004 status=finished shots=1024
+收到 005 status=finished shots=1024
+收到 006 status=finished shots=1024
+收到 007 status=finished shots=1024
+收到 008 status=finished shots=1024
+收到 009 status=finished shots=1024
+收到 010 status=finished shots=1024
+收到 011 status=finished shots=1024
+收到 012 status=finished shots=1024
+收到 013 status=finished shots=1024
+收到 014 status=finished shots=1024
+收到 015 status=finished shots=1024
+收到 016 status=finished shots=1024
+收到 017 status=finished shots=1024
+收到 018 status=finished shots=1024
+收到 019 status=finished shots=1024
+收到 020 status=finished shots=1024
+收到 021 status=finished shots=1024
+收到 022 status=finished shots=1024
+收到 023 status=finished shots=1024
+收到 024 status=finished shots=1024
+收到 025 status=finished shots=1024
+收到 026 status=finished shots=1024
+收到 027 status=finished shots=1024
+收到 028 status=finished shots=1024
+收到 029 status=finished shots=1024
+收到 030 status=finished shots=1024
+收到 031 status=finished shots=1024
+收到 032 status=finished shots=1024
+收到 033 status=finished shots=1024
+收到 034 status=finished shots=1024
+收到 035 status=finished shots=1024
+收到 036 status=finished shots=1024
+收到 037 status=finished shots=1024
+收到 038 status=finished shots=1024
+收到 039 status=finished shots=1024
+收到 040 status=finished shots=1024
+收到 041 status=finished shots=1024
+收到 042 status=finished shots=1024
+收到 043 status=finished shots=1024
+收到 044 status=finished shots=1024
+收到 045 status=finished shots=1024
+收到 046 status=finished shots=1024
+收到 047 status=finished shots=1024
+收到 048 status=finished shots=1024
+收到 049 status=finished shots=1024
+收到 050 status=finished shots=1024
+收到 051 status=finished shots=1024
+收到 052 status=finished shots=1024
+收到 053 status=finished shots=1024
+收到 054 status=finished shots=1024
+收到 055 status=finished shots=1024
+收到 056 status=finished shots=1024
+收到 057 status=finished shots=1024
+收到 058 status=finished shots=1024
+收到 059 status=finished shots=1024
+收到 060 status=finished shots=1024
+收到 061 status=finished shots=1024
+收到 062 status=finished shots=1024
+收到 063 status=finished shots=1024
+收到 064 status=finished shots=1024
+收到 065 status=finished shots=1024
+收到 066 status=finished shots=1024
+收到 067 status=finished shots=1024
+收到 068 status=finished shots=1024
+收到 069 status=finished shots=1024
+收到 070 status=finished shots=1024
+收到 071 status=finished shots=1024
+收到 072 status=finished shots=1024
+收到 073 status=finished shots=1024
+收到 074 status=finished shots=1024
+收到 075 status=finished shots=1024
+收到 076 status=finished shots=1024
+收到 077 status=finished shots=1024
+收到 078 status=finished shots=1024
+收到 079 status=finished shots=1024
+收到 080 status=finished shots=1024
+收到 081 status=finished shots=1024
+收到 082 status=finished shots=1024
+收到 083 status=finished shots=1024
+收到 084 status=finished shots=1024
+收到 085 status=finished shots=1024
+收到 086 status=finished shots=1024
+收到 087 status=finished shots=1024
+收到 088 status=finished shots=1024
+收到 089 status=finished shots=1024
+收到 090 status=finished shots=1024
+收到 091 status=finished shots=1024
+收到 092 status=finished shots=1024
+收到 093 status=finished shots=1024
+收到 094 status=finished shots=1024
+收到 095 status=finished shots=1024
+收到 096 status=finished shots=1024
+收到 097 status=finished shots=1024
+收到 098 status=finished shots=1024
+收到 099 status=finished shots=1024
+收到 100 status=finished shots=1024
+收到 101 status=finished shots=1024
+收到 102 status=finished shots=1024
+全部完成。请告诉 Claude：pce8c 实验结果已回收（live_1011 文件夹）。

@@ -1,0 +1,216 @@
+==== 开始 2026-10-10 18:40:38 cwd= E:\000量子项目决赛预备\2.QuantumRouteForge：基于精简版增添实验及结果（选择观看）\QuantumRouteForge研究复现包
+本地检查：102 个任务，失败 0 个
+Baihua configuration loading done!
+The last calibration time was 2026-10-10 16:40:08
+Baihua（标定 2026-10-10 16:40:08）最好链 [109, 110, 123, 124, 125, 126, 127, 128]  CZ 保真度 [0.987, 0.987, 0.988, 0.99, 0.989, 0.996, 0.99]  Q 线路全部 CZ 的总保真度 0.863  得分 -0.147
+Dongling configuration loading done!
+The last calibration time was 2026-10-10 16:40:10
+Dongling（标定 2026-10-10 16:40:10）最好链 [2, 9, 3, 10, 4, 11, 5, 12]  CZ 保真度 [0.974, 0.979, 0.988, 0.984, 0.982, 0.979, 0.985]  Q 线路全部 CZ 的总保真度 0.771  得分 -1.017
+选用： Baihua [109, 110, 123, 124, 125, 126, 127, 128]
+已提交 #001 QRF_pce8_001_diag_low4 -> 2610101840430614144
+已提交 #002 QRF_pce8_002_diag_q0q1q4 -> 2610101840433398878
+收到 #001 status=finished shots=1024
+收到 #002 status=finished shots=1024
+诊断 diag_low4: 实测最多 00001111 占比 0.75，判定位序 c7…c0
+诊断 diag_q0q1q4: 实测最多 00010011 占比 0.84，判定位序 c7…c0
+已提交 #003 QRF_pce8_003_ro_all0 -> 2610101841171430725
+已提交 #004 QRF_pce8_004_ro_all1 -> 2610101841174291513
+已提交 #005 QRF_pce8_005_s20004_Q_X_r1 -> 2610101841177791262
+已提交 #006 QRF_pce8_006_s20001_P_Y_r1 -> 2610101841180455554
+已提交 #007 QRF_pce8_007_s20005_Q_X_r1 -> 2610101841183279765
+已提交 #008 QRF_pce8_008_s20005_Q_Y_r1 -> 2610101841186083416
+已提交 #009 QRF_pce8_009_s20002_P_Z_r1 -> 2610101841188838869
+已提交 #010 QRF_pce8_010_s20001_P_Z_r1 -> 2610101841191593021
+已提交 #011 QRF_pce8_011_s20004_P_Z_r1 -> 2610101841194264601
+已提交 #012 QRF_pce8_012_s20004_Q_Y_r1 -> 2610101841197355272
+已提交 #013 QRF_pce8_013_s20001_Q_Z_r1 -> 2610101841200056577
+已提交 #014 QRF_pce8_014_s20005_P_X_r1 -> 2610101841202780354
+已提交 #015 QRF_pce8_015_s20002_Q_Z_r1 -> 2610101841205487793
+已提交 #016 QRF_pce8_016_s20004_P_Y_r1 -> 2610101841208197715
+已提交 #017 QRF_pce8_017_s20001_Q_Y_r1 -> 2610101841211627899
+已提交 #018 QRF_pce8_018_s20004_P_X_r1 -> 2610101841214335199
+已提交 #019 QRF_pce8_019_s20001_P_X_r1 -> 2610101841216978611
+已提交 #020 QRF_pce8_020_s20005_P_Y_r1 -> 2610101841220237147
+已提交 #021 QRF_pce8_021_s20005_Q_Z_r1 -> 2610101841224232632
+已提交 #022 QRF_pce8_022_s20004_Q_Z_r1 -> 2610101841235944712
+已提交 #023 QRF_pce8_023_s20002_P_X_r1 -> 2610101841238615299
+已提交 #024 QRF_pce8_024_s20002_Q_Y_r1 -> 2610101841242444420
+已提交 #025 QRF_pce8_025_s20001_Q_X_r1 -> 2610101841245818167
+已提交 #026 QRF_pce8_026_s20005_P_Z_r1 -> 2610101841257547698
+已提交 #027 QRF_pce8_027_s20002_Q_X_r1 -> 2610101841260599157
+已提交 #028 QRF_pce8_028_s20002_P_Y_r1 -> 2610101841272931481
+已提交 #029 QRF_pce8_029_s20005_P_X_r2 -> 2610101841276604709
+已提交 #030 QRF_pce8_030_s20001_P_Y_r2 -> 2610101841279421363
+已提交 #031 QRF_pce8_031_s20002_P_Y_r2 -> 2610101841282171552
+已提交 #032 QRF_pce8_032_s20004_P_Y_r2 -> 2610101841295032456
+已提交 #033 QRF_pce8_033_s20005_Q_X_r2 -> 2610101841298594752
+已提交 #034 QRF_pce8_034_s20005_P_Z_r2 -> 2610101841302225021
+已提交 #035 QRF_pce8_035_s20004_Q_Y_r2 -> 2610101841305172917
+已提交 #036 QRF_pce8_036_s20004_P_Z_r2 -> 2610101841307946740
+已提交 #037 QRF_pce8_037_s20004_Q_X_r2 -> 2610101841311568770
+已提交 #038 QRF_pce8_038_s20005_Q_Z_r2 -> 2610101841314197212
+已提交 #039 QRF_pce8_039_s20002_Q_Z_r2 -> 2610101841316939778
+已提交 #040 QRF_pce8_040_s20002_Q_X_r2 -> 2610101841319752211
+已提交 #041 QRF_pce8_041_s20001_Q_Z_r2 -> 2610101841342610760
+已提交 #042 QRF_pce8_042_s20004_P_X_r2 -> 2610101841345302416
+已提交 #043 QRF_pce8_043_s20001_P_X_r2 -> 2610101841348398825
+已提交 #044 QRF_pce8_044_s20004_Q_Z_r2 -> 2610101841351610423
+已提交 #045 QRF_pce8_045_s20002_P_X_r2 -> 2610101841354782050
+已提交 #046 QRF_pce8_046_s20002_Q_Y_r2 -> 2610101841358048633
+已提交 #047 QRF_pce8_047_s20005_Q_Y_r2 -> 2610101841361289531
+已提交 #048 QRF_pce8_048_s20001_Q_X_r2 -> 2610101841364447941
+已提交 #049 QRF_pce8_049_s20001_Q_Y_r2 -> 2610101841367084648
+已提交 #050 QRF_pce8_050_s20001_P_Z_r2 -> 2610101841370290175
+已提交 #051 QRF_pce8_051_s20005_P_Y_r2 -> 2610101841373521358
+已提交 #052 QRF_pce8_052_s20002_P_Z_r2 -> 2610101841385698522
+已提交 #053 QRF_pce8_053_s20002_P_X_r3 -> 2610101841388390485
+已提交 #054 QRF_pce8_054_s20001_P_Z_r3 -> 2610101841400992280
+已提交 #055 QRF_pce8_055_s20004_Q_Y_r3 -> 2610101841403732794
+已提交 #056 QRF_pce8_056_s20004_P_Y_r3 -> 2610101841406799928
+已提交 #057 QRF_pce8_057_s20005_P_Y_r3 -> 2610101841410106992
+已提交 #058 QRF_pce8_058_s20004_P_Z_r3 -> 2610101841413368619
+已提交 #059 QRF_pce8_059_s20005_P_Z_r3 -> 2610101841416775890
+已提交 #060 QRF_pce8_060_s20001_Q_Y_r3 -> 2610101841420011826
+已提交 #061 QRF_pce8_061_s20001_P_X_r3 -> 2610101841423364795
+已提交 #062 QRF_pce8_062_s20002_Q_Y_r3 -> 2610101841426521162
+已提交 #063 QRF_pce8_063_s20002_P_Y_r3 -> 2610101841431348683
+已提交 #064 QRF_pce8_064_s20002_Q_X_r3 -> 2610101841434230682
+已提交 #065 QRF_pce8_065_s20001_Q_Z_r3 -> 2610101841451794866
+已提交 #066 QRF_pce8_066_s20001_P_Y_r3 -> 2610101841454696615
+已提交 #067 QRF_pce8_067_s20001_Q_X_r3 -> 2610101841457812548
+已提交 #068 QRF_pce8_068_s20005_Q_Y_r3 -> 2610101841460504392
+已提交 #069 QRF_pce8_069_s20004_Q_Z_r3 -> 2610101841472755920
+已提交 #070 QRF_pce8_070_s20002_Q_Z_r3 -> 2610101841495665069
+已提交 #071 QRF_pce8_071_s20004_P_X_r3 -> 2610101841498494618
+已提交 #072 QRF_pce8_072_s20004_Q_X_r3 -> 2610101841501201315
+已提交 #073 QRF_pce8_073_s20005_P_X_r3 -> 2610101841503905797
+已提交 #074 QRF_pce8_074_s20005_Q_Z_r3 -> 2610101841506636061
+已提交 #075 QRF_pce8_075_s20005_Q_X_r3 -> 2610101841509402482
+已提交 #076 QRF_pce8_076_s20002_P_Z_r3 -> 2610101841512149727
+已提交 #077 QRF_pce8_077_s20001_Q_Y_r4 -> 2610101841514939222
+已提交 #078 QRF_pce8_078_s20002_P_Y_r4 -> 2610101841517797147
+已提交 #079 QRF_pce8_079_s20004_Q_Z_r4 -> 2610101841520571253
+已提交 #080 QRF_pce8_080_s20004_Q_Y_r4 -> 2610101841532589269
+已提交 #081 QRF_pce8_081_s20002_Q_X_r4 -> 2610101841535389112
+已提交 #082 QRF_pce8_082_s20005_Q_Y_r4 -> 2610101841538665516
+已提交 #083 QRF_pce8_083_s20001_Q_Z_r4 -> 2610101841552158895
+已提交 #084 QRF_pce8_084_s20005_Q_X_r4 -> 2610101841554935343
+已提交 #085 QRF_pce8_085_s20002_P_Z_r4 -> 2610101841558524193
+已提交 #086 QRF_pce8_086_s20005_P_Z_r4 -> 2610101841561424730
+已提交 #087 QRF_pce8_087_s20001_Q_X_r4 -> 2610101841573779423
+已提交 #088 QRF_pce8_088_s20001_P_Z_r4 -> 2610101841584299638
+已提交 #089 QRF_pce8_089_s20004_P_X_r4 -> 2610101841587214762
+已提交 #090 QRF_pce8_090_s20001_P_X_r4 -> 2610101841590516570
+已提交 #091 QRF_pce8_091_s20002_P_X_r4 -> 2610101841593746430
+已提交 #092 QRF_pce8_092_s20005_P_X_r4 -> 2610101842004731243
+已提交 #093 QRF_pce8_093_s20001_P_Y_r4 -> 2610101842007432520
+已提交 #094 QRF_pce8_094_s20002_Q_Z_r4 -> 2610101842010365966
+已提交 #095 QRF_pce8_095_s20005_P_Y_r4 -> 2610101842014302896
+已提交 #096 QRF_pce8_096_s20002_Q_Y_r4 -> 2610101842017135304
+已提交 #097 QRF_pce8_097_s20005_Q_Z_r4 -> 2610101842019948024
+已提交 #098 QRF_pce8_098_s20004_P_Z_r4 -> 2610101842023081032
+已提交 #099 QRF_pce8_099_s20004_Q_X_r4 -> 2610101842026655341
+已提交 #100 QRF_pce8_100_s20004_P_Y_r4 -> 2610101842029895404
+已提交 #101 QRF_pce8_101_ro_all0_end -> 2610101842033008194
+已提交 #102 QRF_pce8_102_ro_all1_end -> 2610101842066103413
+收到 #003 status=finished shots=1024
+收到 #004 status=finished shots=1024
+收到 #005 status=finished shots=1024
+收到 #006 status=finished shots=1024
+收到 #007 status=finished shots=1024
+收到 #008 status=finished shots=1024
+收到 #009 status=finished shots=1024
+收到 #010 status=finished shots=1024
+收到 #011 status=finished shots=1024
+收到 #012 status=finished shots=1024
+收到 #013 status=finished shots=1024
+收到 #014 status=finished shots=1024
+收到 #015 status=finished shots=1024
+收到 #016 status=finished shots=1024
+收到 #017 status=finished shots=1024
+收到 #018 status=finished shots=1024
+收到 #019 status=finished shots=1024
+收到 #020 status=finished shots=1024
+收到 #021 status=finished shots=1024
+收到 #022 status=finished shots=1024
+收到 #023 status=finished shots=1024
+收到 #024 status=finished shots=1024
+收到 #025 status=finished shots=1024
+收到 #026 status=finished shots=1024
+收到 #027 status=finished shots=1024
+收到 #028 status=finished shots=1024
+收到 #029 status=finished shots=1024
+收到 #030 status=finished shots=1024
+收到 #031 status=finished shots=1024
+收到 #032 status=finished shots=1024
+收到 #033 status=finished shots=1024
+收到 #034 status=finished shots=1024
+收到 #035 status=finished shots=1024
+收到 #036 status=finished shots=1024
+收到 #037 status=finished shots=1024
+收到 #038 status=finished shots=1024
+收到 #039 status=finished shots=1024
+收到 #040 status=finished shots=1024
+收到 #041 status=finished shots=1024
+收到 #042 status=finished shots=1024
+收到 #043 status=finished shots=1024
+收到 #044 status=finished shots=1024
+收到 #045 status=finished shots=1024
+收到 #046 status=finished shots=1024
+收到 #047 status=finished shots=1024
+收到 #048 status=finished shots=1024
+收到 #049 status=finished shots=1024
+收到 #050 status=finished shots=1024
+收到 #051 status=finished shots=1024
+收到 #052 status=finished shots=1024
+收到 #053 status=finished shots=1024
+收到 #054 status=finished shots=1024
+收到 #055 status=finished shots=1024
+收到 #056 status=finished shots=1024
+收到 #057 status=finished shots=1024
+收到 #058 status=finished shots=1024
+收到 #059 status=finished shots=1024
+收到 #060 status=finished shots=1024
+收到 #061 status=finished shots=1024
+收到 #062 status=finished shots=1024
+收到 #063 status=finished shots=1024
+收到 #064 status=finished shots=1024
+收到 #065 status=finished shots=1024
+收到 #066 status=finished shots=1024
+收到 #067 status=finished shots=1024
+收到 #068 status=finished shots=1024
+收到 #069 status=finished shots=1024
+收到 #070 status=finished shots=1024
+收到 #071 status=finished shots=1024
+收到 #072 status=finished shots=1024
+收到 #073 status=finished shots=1024
+收到 #074 status=finished shots=1024
+收到 #075 status=finished shots=1024
+收到 #076 status=finished shots=1024
+收到 #077 status=finished shots=1024
+收到 #078 status=finished shots=1024
+收到 #079 status=finished shots=1024
+收到 #080 status=finished shots=1024
+收到 #081 status=finished shots=1024
+收到 #082 status=finished shots=1024
+收到 #083 status=finished shots=1024
+收到 #084 status=finished shots=1024
+收到 #085 status=finished shots=1024
+收到 #086 status=finished shots=1024
+收到 #087 status=finished shots=1024
+收到 #088 status=finished shots=1024
+收到 #089 status=finished shots=1024
+收到 #090 status=finished shots=1024
+收到 #091 status=finished shots=1024
+收到 #092 status=finished shots=1024
+收到 #093 status=finished shots=1024
+收到 #094 status=finished shots=1024
+收到 #095 status=finished shots=1024
+收到 #096 status=finished shots=1024
+收到 #097 status=finished shots=1024
+收到 #098 status=finished shots=1024
+收到 #099 status=finished shots=1024
+收到 #100 status=finished shots=1024
+收到 #101 status=finished shots=1024
+收到 #102 status=finished shots=1024
+全部完成。请告诉 Claude：泡利关联编码真机展示 pce8 结果已回收（live 文件夹）。
