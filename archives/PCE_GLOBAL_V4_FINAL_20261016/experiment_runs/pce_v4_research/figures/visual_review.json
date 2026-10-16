@@ -1,0 +1,20 @@
+{
+ "reviewed": true,
+ "files": [
+  {
+   "file": "final_comparison.png",
+   "pixels": [
+    2800,
+    1600
+   ]
+  },
+  {
+   "file": "training_curves.png",
+   "pixels": [
+    2600,
+    1400
+   ]
+  }
+ ],
+ "review": "已逐图查看：标题、坐标轴、图例及误差线可读，无可见裁切；种子散点、训练波动和44客户改动增加均保留。线图用实线与虚线辅助区分；未声明满足具体期刊排版要求。"
+}

@@ -1,0 +1,36 @@
+{
+ "revision": "V42_GEOMETRY",
+ "reason": "联合训练容量可行率提高，但可行条件路线恶化超过预设10%；增加低权重几何项并保留连续容量项。",
+ "evidence": {
+  "LEGACY": {
+   "raw_feasibility_rate": 0.1875,
+   "raw_mean_overload": 26.0125,
+   "feasible_raw_route_distance": 851.6,
+   "customer_flip_rate": 0.2689583333333333,
+   "models": 10
+  },
+  "NEW_DECODER": {
+   "raw_feasibility_rate": 0.3625,
+   "raw_mean_overload": 9.2375,
+   "feasible_raw_route_distance": 842.4904761904763,
+   "customer_flip_rate": 0.15895833333333337,
+   "models": 10
+  },
+  "NEW_JOINT": {
+   "raw_feasibility_rate": 0.65,
+   "raw_mean_overload": 5.55625,
+   "feasible_raw_route_distance": 971.0805248917748,
+   "customer_flip_rate": 0.11000000000000001,
+   "models": 10
+  },
+  "RANDOM_THETA": {
+   "raw_feasibility_rate": 0.025,
+   "raw_mean_overload": 41.93125,
+   "feasible_raw_route_distance": 1012.5,
+   "customer_flip_rate": 0.16875,
+   "models": 10
+  }
+ },
+ "decision_data": "独立验证读出；不读取最终测试",
+ "source": "第三版第14节失败诊断与第四版revision_v41/revision_v42；阈值及补充分支为本轮提前冻结的实现规则"
+}

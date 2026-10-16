@@ -1,0 +1,9 @@
+﻿实例,信息组,求解次数,最终可行次数,说明
+B-n31-k5,TRAINED,80,80,原始目标冻结阶段的容量约束辅助求解，不进入最终目标训练；逐条状态与预算见capacity_auxiliary_raw.json
+B-n31-k5,RANDOM_THETA,80,80,原始目标冻结阶段的容量约束辅助求解，不进入最终目标训练；逐条状态与预算见capacity_auxiliary_raw.json
+B-n31-k5,NULL_READOUT,80,80,原始目标冻结阶段的容量约束辅助求解，不进入最终目标训练；逐条状态与预算见capacity_auxiliary_raw.json
+B-n31-k5,SHUFFLED_ROWS,80,80,原始目标冻结阶段的容量约束辅助求解，不进入最终目标训练；逐条状态与预算见capacity_auxiliary_raw.json
+A-n45-k7,TRAINED,80,80,原始目标冻结阶段的容量约束辅助求解，不进入最终目标训练；逐条状态与预算见capacity_auxiliary_raw.json
+A-n45-k7,RANDOM_THETA,80,80,原始目标冻结阶段的容量约束辅助求解，不进入最终目标训练；逐条状态与预算见capacity_auxiliary_raw.json
+A-n45-k7,NULL_READOUT,80,80,原始目标冻结阶段的容量约束辅助求解，不进入最终目标训练；逐条状态与预算见capacity_auxiliary_raw.json
+A-n45-k7,SHUFFLED_ROWS,80,80,原始目标冻结阶段的容量约束辅助求解，不进入最终目标训练；逐条状态与预算见capacity_auxiliary_raw.json

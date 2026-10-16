@@ -1,0 +1,76 @@
+{
+ "passed": true,
+ "details": [
+  {
+   "instance": "B-n31-k5",
+   "candidate_evaluations": 8543,
+   "seconds": 5.4537295
+  },
+  {
+   "instance": "B-n31-k5",
+   "candidate_evaluations": 6102,
+   "seconds": 0.07259089999999979
+  },
+  {
+   "instance": "B-n31-k5",
+   "candidate_evaluations": 7124,
+   "seconds": 0.15462739999999897
+  },
+  {
+   "instance": "B-n31-k5",
+   "candidate_evaluations": 7154,
+   "seconds": 0.08482599999999962
+  },
+  {
+   "instance": "B-n31-k5",
+   "candidate_evaluations": 8448,
+   "seconds": 0.13201739999999873
+  },
+  {
+   "instance": "B-n31-k5",
+   "candidate_evaluations": 5127,
+   "seconds": 0.0972603000000003
+  },
+  {
+   "instance": "B-n31-k5",
+   "candidate_evaluations": 3331,
+   "seconds": 0.07290509999999983
+  },
+  {
+   "instance": "A-n45-k7",
+   "candidate_evaluations": 10000,
+   "seconds": 0.08972389999999919
+  },
+  {
+   "instance": "A-n45-k7",
+   "candidate_evaluations": 10000,
+   "seconds": 0.06806150000000066
+  },
+  {
+   "instance": "A-n45-k7",
+   "candidate_evaluations": 10000,
+   "seconds": 0.12187209999999915
+  },
+  {
+   "instance": "A-n45-k7",
+   "candidate_evaluations": 10000,
+   "seconds": 0.06738220000000084
+  },
+  {
+   "instance": "A-n45-k7",
+   "candidate_evaluations": 10000,
+   "seconds": 0.06926949999999898
+  },
+  {
+   "instance": "A-n45-k7",
+   "candidate_evaluations": 10000,
+   "seconds": 0.09389979999999909
+  },
+  {
+   "instance": "A-n45-k7",
+   "candidate_evaluations": 10000,
+   "seconds": 0.13479430000000114
+  }
+ ],
+ "scope": "14份正式规模分配与原Python精修器逐项一致；候选顺序、预算、结果与首次可行中间态一致。"
+}

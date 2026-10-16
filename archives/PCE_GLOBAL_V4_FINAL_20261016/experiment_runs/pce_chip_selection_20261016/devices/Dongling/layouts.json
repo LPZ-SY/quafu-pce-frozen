@@ -1,0 +1,196 @@
+{
+ "8": {
+  "path": [
+   12,
+   5,
+   11,
+   4,
+   10,
+   3,
+   9,
+   2
+  ],
+  "selection_score": 5.232262164420745,
+  "qubits": [
+   {
+    "label": "Q12",
+    "index": 12,
+    "T1": 61.441,
+    "T2": 13.353,
+    "fidelity": 0.998,
+    "frequency": 4.84,
+    "readout frequency": 7.336,
+    "readout g_fidelity": 0.964,
+    "readout e_fidelity": 0.901,
+    "length": 6e-08,
+    "coordinate": [
+     11,
+     1
+    ]
+   },
+   {
+    "label": "Q5",
+    "index": 5,
+    "T1": 33.039,
+    "T2": 6.13,
+    "fidelity": 0.998,
+    "frequency": 4.675,
+    "readout frequency": 7.342,
+    "readout g_fidelity": 0.888,
+    "readout e_fidelity": 0.686,
+    "length": 6e-08,
+    "coordinate": [
+     10,
+     0
+    ]
+   },
+   {
+    "label": "Q11",
+    "index": 11,
+    "T1": 48.508,
+    "T2": 2.29,
+    "fidelity": 0.998,
+    "frequency": 4.721,
+    "readout frequency": 7.043,
+    "readout g_fidelity": 0.948,
+    "readout e_fidelity": 0.958,
+    "length": 6e-08,
+    "coordinate": [
+     9,
+     1
+    ]
+   },
+   {
+    "label": "Q4",
+    "index": 4,
+    "T1": 52.336,
+    "T2": 13.958,
+    "fidelity": 0.997,
+    "frequency": 4.627,
+    "readout frequency": 7.039,
+    "readout g_fidelity": 0.921,
+    "readout e_fidelity": 0.889,
+    "length": 6e-08,
+    "coordinate": [
+     8,
+     0
+    ]
+   },
+   {
+    "label": "Q10",
+    "index": 10,
+    "T1": 18.865,
+    "T2": 3.704,
+    "fidelity": 0.997,
+    "frequency": 4.841,
+    "readout frequency": 7.27,
+    "readout g_fidelity": 0.965,
+    "readout e_fidelity": 0.917,
+    "length": 6e-08,
+    "coordinate": [
+     7,
+     1
+    ]
+   },
+   {
+    "label": "Q3",
+    "index": 3,
+    "T1": 103.598,
+    "T2": 0.84,
+    "fidelity": 0.998,
+    "frequency": 4.667,
+    "readout frequency": 7.292,
+    "readout g_fidelity": 0.958,
+    "readout e_fidelity": 0.827,
+    "length": 6e-08,
+    "coordinate": [
+     6,
+     0
+    ]
+   },
+   {
+    "label": "Q9",
+    "index": 9,
+    "T1": 16.549,
+    "T2": 1.622,
+    "fidelity": 0.997,
+    "frequency": 4.739,
+    "readout frequency": 6.987,
+    "readout g_fidelity": 0.97,
+    "readout e_fidelity": 0.892,
+    "length": 6e-08,
+    "coordinate": [
+     5,
+     1
+    ]
+   },
+   {
+    "label": "Q2",
+    "index": 2,
+    "T1": 94.594,
+    "T2": 7.198,
+    "fidelity": 0.999,
+    "frequency": 4.621,
+    "readout frequency": 6.991,
+    "readout g_fidelity": 0.95,
+    "readout e_fidelity": 0.853,
+    "length": 8e-08,
+    "coordinate": [
+     4,
+     0
+    ]
+   }
+  ],
+  "edges": [
+   {
+    "qubits": [
+     12,
+     5
+    ],
+    "fidelity": 0.985
+   },
+   {
+    "qubits": [
+     5,
+     11
+    ],
+    "fidelity": 0.979
+   },
+   {
+    "qubits": [
+     11,
+     4
+    ],
+    "fidelity": 0.982
+   },
+   {
+    "qubits": [
+     4,
+     10
+    ],
+    "fidelity": 0.984
+   },
+   {
+    "qubits": [
+     10,
+     3
+    ],
+    "fidelity": 0.988
+   },
+   {
+    "qubits": [
+     3,
+     9
+    ],
+    "fidelity": 0.979
+   },
+   {
+    "qubits": [
+     9,
+     2
+    ],
+    "fidelity": 0.974
+   }
+  ]
+ }
+}

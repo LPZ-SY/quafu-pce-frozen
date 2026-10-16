@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.nbc
+*.nbi
+.venv/
+.sdk/
+.env
+.env.*
+*.key
+*.pem

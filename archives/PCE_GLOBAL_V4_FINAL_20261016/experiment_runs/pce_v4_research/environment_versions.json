@@ -1,0 +1,17 @@
+{
+ "local_python": "3.9.10 (tags/v3.9.10:f2f3f53, Jan 17 2022, 15:14:21) [MSC v.1929 64 bit (AMD64)]",
+ "local_packages": {
+  "numpy": "2.0.2",
+  "numba": "0.60.0",
+  "matplotlib": "3.9.4",
+  "scipy": "1.13.1",
+  "ortools": "9.15.6755",
+  "PyYAML": "6.0.3"
+ },
+ "remote": {
+  "python": "/tmp/pzlv_search_budget_audit_20261014_r01/.venv/bin/python",
+  "numpy": "2.0.2",
+  "numba": "0.60.0"
+ },
+ "repeated_simulation_check": "本地与服务器90份重复完整计数文件、对应测试结果逐项相同。"
+}

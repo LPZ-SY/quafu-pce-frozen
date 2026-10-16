@@ -1,0 +1,23 @@
+{
+ "retrieved_utc": "2026-10-16T03:16:44.659183+00:00",
+ "chips": {
+  "Baihua": {
+   "SUBMITTED": 18,
+   "DONE": 0,
+   "FAILED": 0,
+   "SUBMISSION_UNCERTAIN": 0
+  },
+  "Dongling": {
+   "SUBMITTED": 9,
+   "DONE": 0,
+   "FAILED": 0,
+   "SUBMISSION_UNCERTAIN": 0
+  },
+  "Shenglian": {
+   "SUBMITTED": 18,
+   "DONE": 0,
+   "FAILED": 0,
+   "SUBMISSION_UNCERTAIN": 0
+  }
+ }
+}

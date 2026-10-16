@@ -1,0 +1,69 @@
+experiment_name: pce_v4_research
+
+instances:
+  primary:
+    scale: "30x5"
+    source: "discover_existing_project_instance"
+  scale_validation:
+    scale: "44x7"
+    source: "discover_existing_project_instance"
+
+methods:
+  - LEGACY
+  - NEW_DECODER
+  - NEW_JOINT
+  - RANDOM_THETA
+
+training:
+  optimizer: "reuse_current_derivative_free_else_CMAES"
+  seeds: [1001,1002,1003,1004,1005,1006,1007,1008,1009,1010]
+  objective_queries: 4096
+  train_shot_batches_per_query: 4
+  shots_total_per_full_readout: 4096
+
+joint_objective:
+  alpha_ref: 0.35
+  beta_shot: 0.55
+  gamma_margin: 0.10
+  lambda_capacity: 30.0
+  margin_target: 0.10
+
+revision_v41:
+  enabled_only_if: "NEW_DECODER improves but NEW_JOINT does not"
+  softmax_temperature: 0.25
+  soft_capacity_weight: 0.25
+
+revision_v42:
+  enabled_only_if: "capacity improves but route quality degrades strongly"
+  geo_weight: 0.05
+
+final_test:
+  readout_batches_per_frozen_model: 64
+  shots_total_per_batch: 4096
+  confirmation_seeds_30x5: 20
+  scale_validation_seeds_44x7: 10
+
+hardware:
+  run_only_after_simulation_freeze: true
+  frozen_training_seeds: 3
+  independent_readout_batches_per_seed: 8
+  shots_total_per_batch: 4096
+  groups:
+    - TRAINED_QPU
+    - TRAINED_IDEAL_SHOT
+    - RANDOM_QPU
+
+primary_metrics:
+  - raw_feasibility_rate
+  - raw_mean_overload
+  - customer_flip_rate
+  - feasible_raw_route_distance
+
+final_outputs:
+  - table_core_model_evolution
+  - table_training_value
+  - table_scale_validation
+  - table_hardware
+  - raw_results_jsonl
+  - training_curves
+  - final_conclusion_md

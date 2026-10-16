@@ -1,0 +1,12 @@
+{
+ "model_files": 300,
+ "tested_models": 300,
+ "raw_readouts": 57600,
+ "final_training_confirmation": 20,
+ "final_training_scale": 10,
+ "random_search_confirmation": 20,
+ "random_search_scale": 10,
+ "expected_final_confirmation": 20,
+ "expected_final_scale": 10,
+ "hardware_analysis_present": true
+}

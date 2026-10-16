@@ -1,0 +1,192 @@
+{
+ "model": "PCE_GLOBAL_V4_FINAL",
+ "simulation_completed": true,
+ "all_scales_meet_user_success_conditions": false,
+ "per_instance": {
+  "B-n31-k5": {
+   "final_feasibility_hard_gate_passed": true,
+   "all_three_improvements_supported": true,
+   "effects": {
+    "raw_overload": {
+     "n": 20,
+     "mean": -22.0078125,
+     "ci95": [
+      -28.4175,
+      -15.403886718750002
+     ],
+     "p_two_sided": 2.999970000299997e-05,
+     "p_holm": 5.999940000599994e-05,
+     "significant_improvement": true
+    },
+    "changed_customers": {
+     "n": 20,
+     "mean": -4.50859375,
+     "ci95": [
+      -5.17423828125,
+      -3.83671875
+     ],
+     "p_two_sided": 1.999980000199998e-05,
+     "p_holm": 5.999940000599994e-05,
+     "significant_improvement": true
+    },
+    "final_distance": {
+     "n": 20,
+     "mean": -14.0078125,
+     "ci95": [
+      -19.240644531250002,
+      -9.19998046875
+     ],
+     "p_two_sided": 1.999980000199998e-05,
+     "p_holm": 5.999940000599994e-05,
+     "significant_improvement": true
+    },
+    "final_feasibility": {
+     "n": 20,
+     "mean": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "p_two_sided": 1.0
+    }
+   },
+   "equal_query_search": {
+    "raw_overload": {
+     "n": 20,
+     "mean": -3.38046875,
+     "ci95": [
+      -5.471875,
+      -1.2421679687500018
+     ],
+     "p_two_sided": 0.0076899231007689925,
+     "p_holm": 0.015379846201537985,
+     "significant_improvement": true
+    },
+    "changed_customers": {
+     "n": 20,
+     "mean": -2.36953125,
+     "ci95": [
+      -3.328125,
+      -1.4109179687500017
+     ],
+     "p_two_sided": 0.00023999760002399976,
+     "p_holm": 0.0007199928000719993,
+     "significant_improvement": true
+    },
+    "final_distance": {
+     "n": 20,
+     "mean": -4.0015625,
+     "ci95": [
+      -8.388320312500001,
+      0.4875195312499983
+     ],
+     "p_two_sided": 0.1003789962100379,
+     "p_holm": 0.1003789962100379,
+     "significant_improvement": false
+    },
+    "final_feasibility": {
+     "n": 20,
+     "mean": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "p_two_sided": 1.0
+    }
+   }
+  },
+  "A-n45-k7": {
+   "final_feasibility_hard_gate_passed": true,
+   "all_three_improvements_supported": false,
+   "effects": {
+    "raw_overload": {
+     "n": 10,
+     "mean": -50.709375,
+     "ci95": [
+      -60.15,
+      -40.64523437500001
+     ],
+     "p_two_sided": 0.0017599824001759982,
+     "p_holm": 0.0052799472005279945,
+     "significant_improvement": true
+    },
+    "changed_customers": {
+     "n": 10,
+     "mean": 0.8546875,
+     "ci95": [
+      0.37652343750000006,
+      1.31875
+     ],
+     "p_two_sided": 0.015599844001559985,
+     "p_holm": 0.015599844001559985,
+     "significant_improvement": false
+    },
+    "final_distance": {
+     "n": 10,
+     "mean": -94.04375,
+     "ci95": [
+      -113.0720703125,
+      -73.4124609375
+     ],
+     "p_two_sided": 0.0020699793002069977,
+     "p_holm": 0.0052799472005279945,
+     "significant_improvement": true
+    },
+    "final_feasibility": {
+     "n": 10,
+     "mean": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "p_two_sided": 1.0
+    }
+   },
+   "equal_query_search": {
+    "raw_overload": {
+     "n": 10,
+     "mean": -6.1078125,
+     "ci95": [
+      -12.2656640625,
+      0.03914062499999318
+     ],
+     "p_two_sided": 0.1076589234107659,
+     "p_holm": 0.1882581174188258,
+     "significant_improvement": false
+    },
+    "changed_customers": {
+     "n": 10,
+     "mean": -0.4203125,
+     "ci95": [
+      -0.8328125,
+      -0.021875
+     ],
+     "p_two_sided": 0.0941290587094129,
+     "p_holm": 0.1882581174188258,
+     "significant_improvement": false
+    },
+    "final_distance": {
+     "n": 10,
+     "mean": -38.40625,
+     "ci95": [
+      -53.4521875,
+      -22.681093750000013
+     ],
+     "p_two_sided": 0.006519934800651993,
+     "p_holm": 0.01955980440195598,
+     "significant_improvement": true
+    },
+    "final_feasibility": {
+     "n": 10,
+     "mean": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "p_two_sided": 1.0
+    }
+   }
+  }
+ },
+ "hardware": "未通过冻结预算校验，待回收任务不阻塞本次模拟交付。"
+}

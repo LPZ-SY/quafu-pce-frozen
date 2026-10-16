@@ -1,0 +1,73 @@
+{
+ "table": [],
+ "rows": [],
+ "controls": [],
+ "missing": [
+  {
+   "chip": "Baihua",
+   "model": "B-n31-k5_2001_random",
+   "batch": 0,
+   "reason": "任务未完整返回"
+  },
+  {
+   "chip": "Dongling",
+   "model": "B-n31-k5_2001_random",
+   "batch": 0,
+   "reason": "任务未完整返回"
+  },
+  {
+   "chip": "Shenglian",
+   "model": "B-n31-k5_2001_random",
+   "batch": 0,
+   "reason": "任务未完整返回"
+  },
+  {
+   "chip": "Baihua",
+   "model": "B-n31-k5_2001_trained",
+   "batch": 0,
+   "reason": "任务未完整返回"
+  },
+  {
+   "chip": "Dongling",
+   "model": "B-n31-k5_2001_trained",
+   "batch": 0,
+   "reason": "任务未完整返回"
+  },
+  {
+   "chip": "Shenglian",
+   "model": "B-n31-k5_2001_trained",
+   "batch": 0,
+   "reason": "任务未完整返回"
+  },
+  {
+   "chip": "Baihua",
+   "model": "A-n45-k7_3001_random",
+   "batch": 0,
+   "reason": "任务未完整返回"
+  },
+  {
+   "chip": "Shenglian",
+   "model": "A-n45-k7_3001_random",
+   "batch": 0,
+   "reason": "任务未完整返回"
+  },
+  {
+   "chip": "Baihua",
+   "model": "A-n45-k7_3001_trained",
+   "batch": 0,
+   "reason": "任务未完整返回"
+  },
+  {
+   "chip": "Shenglian",
+   "model": "A-n45-k7_3001_trained",
+   "batch": 0,
+   "reason": "任务未完整返回"
+  }
+ ],
+ "paired_seeds": [],
+ "status": {
+  "total": 45,
+  "done": 0
+ },
+ "limitation": "当天选片小批，每规模1个模型、1批；只作初步设备诊断，不作总体优势推断。"
+}

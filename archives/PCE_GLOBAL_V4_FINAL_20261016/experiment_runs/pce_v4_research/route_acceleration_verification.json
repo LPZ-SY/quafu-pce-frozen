@@ -1,0 +1,20 @@
+{
+ "passed": true,
+ "records": [
+  {
+   "instance": "B-n31-k5",
+   "customer_subsets": 216,
+   "identical": true,
+   "original_seconds": 0.02236450000000012,
+   "incremental_seconds": 0.0015860999999999237
+  },
+  {
+   "instance": "A-n45-k7",
+   "customer_subsets": 216,
+   "identical": true,
+   "original_seconds": 0.02871860000000015,
+   "incremental_seconds": 0.002001699999999884
+  }
+ ],
+ "scope": "只用于已核对的整数对称距离；客户集合全部来自正式实例。"
+}

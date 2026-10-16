@@ -1,0 +1,166 @@
+{
+  "instance": "B-n31-k5",
+  "reference": 672,
+  "seeds": [
+    2001,
+    2002,
+    2003
+  ],
+  "batches": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "table": [
+    {
+      "method": "东岭真机／训练后参数",
+      "scope": "3个种子×8批，每批6144次测量",
+      "rows": 24,
+      "final_feasible": 24,
+      "final_distance": 698.0416666666666,
+      "gap_percent": 3.8752480158730007,
+      "raw_feasible": 3,
+      "raw_overload": 19.375,
+      "changed_customers": 18.375
+    },
+    {
+      "method": "东岭真机／未训练随机参数",
+      "scope": "3个种子×8批，每批6144次测量",
+      "rows": 24,
+      "final_feasible": 24,
+      "final_distance": 705.4166666666666,
+      "gap_percent": 4.972718253968256,
+      "raw_feasible": 3,
+      "raw_overload": 29.666666666666668,
+      "changed_customers": 17.583333333333332
+    },
+    {
+      "method": "同测量次数理想模拟／训练后参数",
+      "scope": "3个种子×8批，每批6144次测量",
+      "rows": 24,
+      "final_feasible": 24,
+      "final_distance": 694.5,
+      "gap_percent": 3.3482142857142794,
+      "raw_feasible": 17,
+      "raw_overload": 2.2916666666666665,
+      "changed_customers": 13.333333333333334
+    },
+    {
+      "method": "同测量次数理想模拟／未训练随机参数",
+      "scope": "3个种子×8批，每批6144次测量",
+      "rows": 24,
+      "final_feasible": 24,
+      "final_distance": 710.1666666666666,
+      "gap_percent": 5.6795634920634885,
+      "raw_feasible": 1,
+      "raw_overload": 27.708333333333332,
+      "changed_customers": 18.875
+    },
+    {
+      "method": "约束内随机1份选1",
+      "scope": "同3个种子、同8个批次索引；生成1份，选1份精修；事后提取既有结果",
+      "rows": 24,
+      "final_feasible": 24,
+      "final_distance": 702.625,
+      "gap_percent": 4.557291666666674,
+      "raw_feasible": 24,
+      "raw_overload": 0.0,
+      "changed_customers": 16.791666666666668
+    },
+    {
+      "method": "约束内随机4份选1",
+      "scope": "同3个种子、同8个批次索引；生成4份，选1份精修；事后提取既有结果",
+      "rows": 24,
+      "final_feasible": 24,
+      "final_distance": 701.3333333333334,
+      "gap_percent": 4.365079365079372,
+      "raw_feasible": 24,
+      "raw_overload": 0.0,
+      "changed_customers": 15.5
+    },
+    {
+      "method": "约束内随机16份选1",
+      "scope": "同3个种子、同8个批次索引；生成16份，选1份精修；事后提取既有结果",
+      "rows": 24,
+      "final_feasible": 24,
+      "final_distance": 705.625,
+      "gap_percent": 5.003720238095233,
+      "raw_feasible": 24,
+      "raw_overload": 0.0,
+      "changed_customers": 14.416666666666666
+    },
+    {
+      "method": "约束内随机64份选1",
+      "scope": "同3个种子、同8个批次索引；生成64份，选1份精修；事后提取既有结果",
+      "rows": 24,
+      "final_feasible": 24,
+      "final_distance": 705.9583333333334,
+      "gap_percent": 5.053323412698418,
+      "raw_feasible": 24,
+      "raw_overload": 0.0,
+      "changed_customers": 15.541666666666666
+    },
+    {
+      "method": "约束内随机256份选1",
+      "scope": "同3个种子、同8个批次索引；生成256份，选1份精修；事后提取既有结果",
+      "rows": 24,
+      "final_feasible": 24,
+      "final_distance": 702.375,
+      "gap_percent": 4.520089285714279,
+      "raw_feasible": 24,
+      "raw_overload": 0.0,
+      "changed_customers": 14.666666666666666
+    },
+    {
+      "method": "约束内随机4096份选1",
+      "scope": "同3个种子、同8个批次索引；生成4096份，选1份精修；事后提取既有结果",
+      "rows": 24,
+      "final_feasible": 24,
+      "final_distance": 701.2083333333334,
+      "gap_percent": 4.3464781746031855,
+      "raw_feasible": 24,
+      "raw_overload": 0.0,
+      "changed_customers": 14.333333333333334
+    },
+    {
+      "method": "无约束全局随机1份",
+      "scope": "同3个种子、每种子1份既有结果；搜索预算另计",
+      "rows": 3,
+      "final_feasible": 3,
+      "final_distance": 701.6666666666666,
+      "gap_percent": 4.414682539682535,
+      "raw_feasible": 0,
+      "raw_overload": 18.333333333333332,
+      "changed_customers": 17.666666666666668
+    },
+    {
+      "method": "无约束全局随机4096份选1",
+      "scope": "同3个种子、每种子1份既有结果；搜索预算另计",
+      "rows": 3,
+      "final_feasible": 3,
+      "final_distance": 724.3333333333334,
+      "gap_percent": 7.787698412698418,
+      "raw_feasible": 3,
+      "raw_overload": 0.0,
+      "changed_customers": 13.666666666666666
+    },
+    {
+      "method": "经典直接求解",
+      "scope": "同3个种子、每种子1份既有结果；搜索预算另计",
+      "rows": 3,
+      "final_feasible": 3,
+      "final_distance": 672.0,
+      "gap_percent": 0.0,
+      "raw_feasible": 3,
+      "raw_overload": 0.0,
+      "changed_customers": 0
+    }
+  ],
+  "limitation": "约束内随机仅按既有种子与批次索引事后对齐，不是同运行成本，也没有共享物理测量随机数。经典直接求解是独立强基准，其搜索预算不同。参考值来自实例bks字段，本轮不提供最优性证明。",
+  "host": "lenovo"
+}

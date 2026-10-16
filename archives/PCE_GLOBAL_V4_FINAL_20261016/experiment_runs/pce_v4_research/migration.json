@@ -1,0 +1,99 @@
+{
+ "utc": "2026-10-15T07:41:53.920065+00:00",
+ "remote_alias": "disco",
+ "interrupted": [
+  {
+   "folder": "models\\final_confirmation\\B-n31-k5\\FINAL_RANDOM_SEARCH_2009",
+   "progress": {
+    "query": 2560,
+    "best_loss": 0.236102984158506,
+    "seconds": 320.97694509999997,
+    "ledger": {
+     "objective_queries": 2560,
+     "state_simulations": 2560,
+     "logical_candidate_evaluations": 12800,
+     "unique_assignments": 12716,
+     "unique_route_evaluations": 3002573,
+     "simulated_shots": 41943040,
+     "hardware_shots": 0,
+     "refinement_calls": 12800,
+     "refinement_cache_hits": 84,
+     "actual_refinement_candidate_evaluations": 94060315,
+     "refinement_seconds": 311.7264302000094,
+     "refinement_budget_per_assignment": 10000,
+     "unique_refined_assignments": 12716
+    }
+   }
+  },
+  {
+   "folder": "models\\final_confirmation\\B-n31-k5\\FINAL_RANDOM_SEARCH_2010",
+   "progress": {
+    "query": 2560,
+    "best_loss": 0.2314673766093669,
+    "seconds": 317.24200240000005,
+    "ledger": {
+     "objective_queries": 2560,
+     "state_simulations": 2560,
+     "logical_candidate_evaluations": 12800,
+     "unique_assignments": 12720,
+     "unique_route_evaluations": 2992943,
+     "simulated_shots": 41943040,
+     "hardware_shots": 0,
+     "refinement_calls": 12800,
+     "refinement_cache_hits": 80,
+     "actual_refinement_candidate_evaluations": 94191502,
+     "refinement_seconds": 308.08906379999735,
+     "refinement_budget_per_assignment": 10000,
+     "unique_refined_assignments": 12720
+    }
+   }
+  },
+  {
+   "folder": "models\\final_confirmation\\B-n31-k5\\FINAL_RANDOM_SEARCH_2011",
+   "progress": {
+    "query": 2560,
+    "best_loss": 0.2334208323701649,
+    "seconds": 315.6662412999999,
+    "ledger": {
+     "objective_queries": 2560,
+     "state_simulations": 2560,
+     "logical_candidate_evaluations": 12800,
+     "unique_assignments": 12725,
+     "unique_route_evaluations": 3006806,
+     "simulated_shots": 41943040,
+     "hardware_shots": 0,
+     "refinement_calls": 12800,
+     "refinement_cache_hits": 75,
+     "actual_refinement_candidate_evaluations": 94096710,
+     "refinement_seconds": 306.3669532999993,
+     "refinement_budget_per_assignment": 10000,
+     "unique_refined_assignments": 12725
+    }
+   }
+  },
+  {
+   "folder": "models\\final_confirmation\\B-n31-k5\\FINAL_RANDOM_SEARCH_2012",
+   "progress": {
+    "query": 1536,
+    "best_loss": 0.23384704710068788,
+    "seconds": 253.43417309999995,
+    "ledger": {
+     "objective_queries": 1536,
+     "state_simulations": 1536,
+     "logical_candidate_evaluations": 7680,
+     "unique_assignments": 7638,
+     "unique_route_evaluations": 2493003,
+     "simulated_shots": 25165824,
+     "hardware_shots": 0,
+     "refinement_calls": 7680,
+     "refinement_cache_hits": 42,
+     "actual_refinement_candidate_evaluations": 56756054,
+     "refinement_seconds": 247.62741780000306,
+     "refinement_budget_per_assignment": 10000,
+     "unique_refined_assignments": 7638
+    }
+   }
+  }
+ ],
+ "policy": "已完成模型保留；中止运行的已记录成本保留，未完成种子从头执行完整4096次查询。"
+}

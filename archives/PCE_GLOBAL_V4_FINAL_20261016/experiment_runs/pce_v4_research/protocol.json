@@ -1,0 +1,130 @@
+{
+ "config": {
+  "experiment_name": "pce_v4_research",
+  "instances": {
+   "primary": {
+    "scale": "30x5",
+    "source": "discover_existing_project_instance"
+   },
+   "scale_validation": {
+    "scale": "44x7",
+    "source": "discover_existing_project_instance"
+   }
+  },
+  "methods": [
+   "LEGACY",
+   "NEW_DECODER",
+   "NEW_JOINT",
+   "RANDOM_THETA"
+  ],
+  "training": {
+   "optimizer": "reuse_current_derivative_free_else_CMAES",
+   "seeds": [
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009,
+    1010
+   ],
+   "objective_queries": 4096,
+   "train_shot_batches_per_query": 4,
+   "shots_total_per_full_readout": 4096
+  },
+  "joint_objective": {
+   "alpha_ref": 0.35,
+   "beta_shot": 0.55,
+   "gamma_margin": 0.1,
+   "lambda_capacity": 30.0,
+   "margin_target": 0.1
+  },
+  "revision_v41": {
+   "enabled_only_if": "NEW_DECODER improves but NEW_JOINT does not",
+   "softmax_temperature": 0.25,
+   "soft_capacity_weight": 0.25
+  },
+  "revision_v42": {
+   "enabled_only_if": "capacity improves but route quality degrades strongly",
+   "geo_weight": 0.05
+  },
+  "final_test": {
+   "readout_batches_per_frozen_model": 64,
+   "shots_total_per_batch": 4096,
+   "confirmation_seeds_30x5": 20,
+   "scale_validation_seeds_44x7": 10
+  },
+  "hardware": {
+   "run_only_after_simulation_freeze": true,
+   "frozen_training_seeds": 3,
+   "independent_readout_batches_per_seed": 8,
+   "shots_total_per_batch": 4096,
+   "groups": [
+    "TRAINED_QPU",
+    "TRAINED_IDEAL_SHOT",
+    "RANDOM_QPU"
+   ]
+  },
+  "primary_metrics": [
+   "raw_feasibility_rate",
+   "raw_mean_overload",
+   "customer_flip_rate",
+   "feasible_raw_route_distance"
+  ],
+  "final_outputs": [
+   "table_core_model_evolution",
+   "table_training_value",
+   "table_scale_validation",
+   "table_hardware",
+   "raw_results_jsonl",
+   "training_curves",
+   "final_conclusion_md"
+  ]
+ },
+ "instances": {
+  "B-n31-k5": {
+   "n": 30,
+   "K": 5,
+   "capacity": 100,
+   "total_demand": 412,
+   "source_sha256": "4c21caba6dd9c2e62d9e51defe45b9b318a931456e4d6e714c0ebd910447fad9"
+  },
+  "A-n45-k7": {
+   "n": 44,
+   "K": 7,
+   "capacity": 100,
+   "total_demand": 634,
+   "source_sha256": "ab22ac5adcd03923127d41c394fd32971ecae0a7d6854c148bfb430dc1b462de"
+  }
+ },
+ "source_hashes": {
+  "PCE_CVRP_v3_Codex_实验执行书.md": "6ce23486e552ce4a1d722a6fe2a72374d9d88bdf7ae98c71c813933e861c90fb",
+  "PCE_CVRP_v4_config.template.yaml": "43a96ebf474cef7cb52664ba3b9296d39a7e7de3fa6ac2621bd6c0b492fd35ea"
+ },
+ "resolution": {
+  "documents": "用户确认第三版执行书与第四版配置为本轮全部输入；不存在可读取的第四版执行书。",
+  "branch_labels": "不冒称文档存在A—F标签；采用第三版第14节故障规则并保存数据触发的明确修改。",
+  "legacy": "完整历史20,001次路线查询加30,001次稳定性查询；其额外预算单列，不宣称与新组等成本。",
+  "primary": "新方法8比特4层64参数；44客户新表示用9比特4层72参数。旧表示均保留8比特。",
+  "new_methods": "4096次目标查询；每次1份参考和4份测量分车；随机参数不训练，另加4096次随机参数搜索。",
+  "margin": "执行第三版协方差感知标准化差距目标z=2；第四版margin_target=0.10仅保留为原始差距诊断阈值，不擅自替换第三版公式。",
+  "validation": "每512次保存训练最优参数；每候选16份独立验证读出；按可行率、超载、可行路程、翻车率顺序选。",
+  "test": "冻结模型后每档1024、4096、16384次测量各64批；测试结果不参与修改选择。",
+  "confirmation": "30客户确认使用全新种子2001—2020；44客户使用3001—3010；重复种子不冒称新实例。",
+  "revision": "一次结构改造：新解码有收益但联合不足用连续容量项；容量提高而路程恶化超过10%用几何项；普遍失败则加深至6层并配套等深对照。",
+  "freeze": "初轮与改造的验证集汇总按预定排序选择模型规则；最终确认结果不用于改写规则。",
+  "hardware": "模拟规则冻结后再检查既有权限；全部新真机数据必须有独立任务及原始计数；无权限时只导出任务包。"
+ },
+ "software": {
+  "numpy": "2.0.2",
+  "numba": "0.60.0",
+  "scipy": "1.13.1",
+  "PyYAML": "6.0.3",
+  "ortools": "9.15.6755",
+  "matplotlib": "3.9.4"
+ },
+ "python": "3.9.10 (tags/v3.9.10:f2f3f53, Jan 17 2022, 15:14:21) [MSC v.1929 64 bit (AMD64)]"
+}
