@@ -1,0 +1,351 @@
+{
+ "Baihua__control_8_one": {
+  "status": "DONE",
+  "chip": "Baihua",
+  "label": "control_8_one",
+  "submitted_utc": "2026-10-16T03:04:07.828241+00:00",
+  "task_id": 2610161104095818292,
+  "received_utc": "2026-10-16T05:13:04.260138+00:00"
+ },
+ "Dongling__control_8_one": {
+  "status": "DONE",
+  "chip": "Dongling",
+  "label": "control_8_one",
+  "submitted_utc": "2026-10-16T03:04:09.173815+00:00",
+  "task_id": 2610161104099303378,
+  "received_utc": "2026-10-16T05:13:04.655004+00:00"
+ },
+ "Shenglian__control_8_one": {
+  "status": "DONE",
+  "chip": "Shenglian",
+  "label": "control_8_one",
+  "submitted_utc": "2026-10-16T03:04:09.482153+00:00",
+  "task_id": 2610161104102412874,
+  "received_utc": "2026-10-16T05:13:08.892197+00:00"
+ },
+ "Baihua__control_8_order": {
+  "status": "DONE",
+  "chip": "Baihua",
+  "label": "control_8_order",
+  "submitted_utc": "2026-10-16T03:04:09.779900+00:00",
+  "task_id": 2610161104187073436,
+  "received_utc": "2026-10-16T05:13:10.506478+00:00"
+ },
+ "Dongling__control_8_order": {
+  "status": "DONE",
+  "chip": "Dongling",
+  "label": "control_8_order",
+  "submitted_utc": "2026-10-16T03:04:19.341311+00:00",
+  "task_id": 2610161104205121420,
+  "received_utc": "2026-10-16T05:13:12.608037+00:00"
+ },
+ "Shenglian__control_8_order": {
+  "status": "DONE",
+  "chip": "Shenglian",
+  "label": "control_8_order",
+  "submitted_utc": "2026-10-16T03:04:20.070580+00:00",
+  "task_id": 2610161104219869083,
+  "received_utc": "2026-10-16T05:13:12.903660+00:00"
+ },
+ "Baihua__control_8_zero": {
+  "status": "DONE",
+  "chip": "Baihua",
+  "label": "control_8_zero",
+  "submitted_utc": "2026-10-16T03:04:21.530567+00:00",
+  "task_id": 2610161104222677730,
+  "received_utc": "2026-10-16T05:13:14.236188+00:00"
+ },
+ "Dongling__control_8_zero": {
+  "status": "DONE",
+  "chip": "Dongling",
+  "label": "control_8_zero",
+  "submitted_utc": "2026-10-16T03:04:21.820406+00:00",
+  "task_id": 2610161104226035194,
+  "received_utc": "2026-10-16T05:13:16.304654+00:00"
+ },
+ "Shenglian__control_8_zero": {
+  "status": "DONE",
+  "chip": "Shenglian",
+  "label": "control_8_zero",
+  "submitted_utc": "2026-10-16T03:04:22.169310+00:00",
+  "task_id": 2610161104228981296,
+  "received_utc": "2026-10-16T05:13:16.739236+00:00"
+ },
+ "Baihua__control_9_one": {
+  "status": "DONE",
+  "chip": "Baihua",
+  "label": "control_9_one",
+  "submitted_utc": "2026-10-16T03:04:22.533996+00:00",
+  "task_id": 2610161104234604248,
+  "received_utc": "2026-10-16T05:13:17.053063+00:00"
+ },
+ "Shenglian__control_9_one": {
+  "status": "DONE",
+  "chip": "Shenglian",
+  "label": "control_9_one",
+  "submitted_utc": "2026-10-16T03:04:23.015892+00:00",
+  "task_id": 2610161104237510952,
+  "received_utc": "2026-10-16T05:13:17.447481+00:00"
+ },
+ "Baihua__control_9_order": {
+  "status": "DONE",
+  "chip": "Baihua",
+  "label": "control_9_order",
+  "submitted_utc": "2026-10-16T03:04:23.393387+00:00",
+  "task_id": 2610161104241228069,
+  "received_utc": "2026-10-16T05:13:17.751110+00:00"
+ },
+ "Shenglian__control_9_order": {
+  "status": "DONE",
+  "chip": "Shenglian",
+  "label": "control_9_order",
+  "submitted_utc": "2026-10-16T03:04:23.711036+00:00",
+  "task_id": 2610161104275103426,
+  "received_utc": "2026-10-16T05:13:18.040558+00:00"
+ },
+ "Baihua__control_9_zero": {
+  "status": "DONE",
+  "chip": "Baihua",
+  "label": "control_9_zero",
+  "submitted_utc": "2026-10-16T03:04:27.098288+00:00",
+  "task_id": 2610161104288326739,
+  "received_utc": "2026-10-16T05:13:21.088089+00:00"
+ },
+ "Shenglian__control_9_zero": {
+  "status": "DONE",
+  "chip": "Shenglian",
+  "label": "control_9_zero",
+  "submitted_utc": "2026-10-16T03:04:28.418246+00:00",
+  "task_id": 2610161104292612148,
+  "received_utc": "2026-10-16T05:13:21.868070+00:00"
+ },
+ "Baihua__B-n31-k5_2001_random_X": {
+  "status": "DONE",
+  "chip": "Baihua",
+  "label": "B-n31-k5_2001_random_X",
+  "submitted_utc": "2026-10-16T03:04:28.835147+00:00",
+  "task_id": 2610161104295586169,
+  "received_utc": "2026-10-16T05:13:23.192103+00:00"
+ },
+ "Dongling__B-n31-k5_2001_random_X": {
+  "status": "DONE",
+  "chip": "Dongling",
+  "label": "B-n31-k5_2001_random_X",
+  "submitted_utc": "2026-10-16T03:04:29.210647+00:00",
+  "task_id": 2610161104299368579,
+  "received_utc": "2026-10-16T05:13:26.952720+00:00"
+ },
+ "Shenglian__B-n31-k5_2001_random_X": {
+  "status": "DONE",
+  "chip": "Shenglian",
+  "label": "B-n31-k5_2001_random_X",
+  "submitted_utc": "2026-10-16T03:04:29.550283+00:00",
+  "task_id": 2610161104325163757,
+  "received_utc": "2026-10-16T05:13:27.508508+00:00"
+ },
+ "Baihua__B-n31-k5_2001_trained_X": {
+  "status": "DONE",
+  "chip": "Baihua",
+  "label": "B-n31-k5_2001_trained_X",
+  "submitted_utc": "2026-10-16T03:04:32.140979+00:00",
+  "task_id": 2610161104330376014,
+  "received_utc": "2026-10-16T05:13:28.105155+00:00"
+ },
+ "Dongling__B-n31-k5_2001_trained_X": {
+  "status": "DONE",
+  "chip": "Dongling",
+  "label": "B-n31-k5_2001_trained_X",
+  "submitted_utc": "2026-10-16T03:04:32.616287+00:00",
+  "task_id": 2610161104401565481,
+  "received_utc": "2026-10-16T05:13:29.053029+00:00"
+ },
+ "Shenglian__B-n31-k5_2001_trained_X": {
+  "status": "DONE",
+  "chip": "Shenglian",
+  "label": "B-n31-k5_2001_trained_X",
+  "submitted_utc": "2026-10-16T03:04:39.724319+00:00",
+  "task_id": 2610161104404487540,
+  "received_utc": "2026-10-16T05:13:29.604823+00:00"
+ },
+ "Baihua__B-n31-k5_2001_random_Y": {
+  "status": "DONE",
+  "chip": "Baihua",
+  "label": "B-n31-k5_2001_random_Y",
+  "submitted_utc": "2026-10-16T03:04:40.041934+00:00",
+  "task_id": 2610161104442388803,
+  "received_utc": "2026-10-16T05:13:30.191301+00:00"
+ },
+ "Dongling__B-n31-k5_2001_random_Y": {
+  "status": "DONE",
+  "chip": "Dongling",
+  "label": "B-n31-k5_2001_random_Y",
+  "submitted_utc": "2026-10-16T03:04:43.790379+00:00",
+  "task_id": 2610161104485685135,
+  "received_utc": "2026-10-16T05:13:30.588356+00:00"
+ },
+ "Shenglian__B-n31-k5_2001_random_Y": {
+  "status": "DONE",
+  "chip": "Shenglian",
+  "label": "B-n31-k5_2001_random_Y",
+  "submitted_utc": "2026-10-16T03:04:48.171302+00:00",
+  "task_id": 2610161104508912671,
+  "received_utc": "2026-10-16T05:13:31.263241+00:00"
+ },
+ "Baihua__B-n31-k5_2001_trained_Y": {
+  "status": "DONE",
+  "chip": "Baihua",
+  "label": "B-n31-k5_2001_trained_Y",
+  "submitted_utc": "2026-10-16T03:04:50.500593+00:00",
+  "task_id": 2610161104512966894,
+  "received_utc": "2026-10-16T05:13:34.771801+00:00"
+ },
+ "Dongling__B-n31-k5_2001_trained_Y": {
+  "status": "DONE",
+  "chip": "Dongling",
+  "label": "B-n31-k5_2001_trained_Y",
+  "submitted_utc": "2026-10-16T03:04:50.858638+00:00",
+  "task_id": 2610161104515905141,
+  "received_utc": "2026-10-16T05:13:35.157486+00:00"
+ },
+ "Shenglian__B-n31-k5_2001_trained_Y": {
+  "status": "DONE",
+  "chip": "Shenglian",
+  "label": "B-n31-k5_2001_trained_Y",
+  "submitted_utc": "2026-10-16T03:04:51.173184+00:00",
+  "task_id": 2610161104528645207,
+  "received_utc": "2026-10-16T05:13:35.592742+00:00"
+ },
+ "Baihua__B-n31-k5_2001_random_Z": {
+  "status": "DONE",
+  "chip": "Baihua",
+  "label": "B-n31-k5_2001_random_Z",
+  "submitted_utc": "2026-10-16T03:04:52.451056+00:00",
+  "task_id": 2610161104533557536,
+  "received_utc": "2026-10-16T05:13:36.925395+00:00"
+ },
+ "Dongling__B-n31-k5_2001_random_Z": {
+  "status": "DONE",
+  "chip": "Dongling",
+  "label": "B-n31-k5_2001_random_Z",
+  "submitted_utc": "2026-10-16T03:04:52.908021+00:00",
+  "task_id": 2610161104536494935,
+  "received_utc": "2026-10-16T05:13:37.266225+00:00"
+ },
+ "Shenglian__B-n31-k5_2001_random_Z": {
+  "status": "DONE",
+  "chip": "Shenglian",
+  "label": "B-n31-k5_2001_random_Z",
+  "submitted_utc": "2026-10-16T03:04:53.233975+00:00",
+  "task_id": 2610161104540853560,
+  "received_utc": "2026-10-16T05:13:37.675066+00:00"
+ },
+ "Baihua__B-n31-k5_2001_trained_Z": {
+  "status": "DONE",
+  "chip": "Baihua",
+  "label": "B-n31-k5_2001_trained_Z",
+  "submitted_utc": "2026-10-16T03:04:53.658147+00:00",
+  "task_id": 2610161104544312957,
+  "received_utc": "2026-10-16T05:13:38.003084+00:00"
+ },
+ "Dongling__B-n31-k5_2001_trained_Z": {
+  "status": "DONE",
+  "chip": "Dongling",
+  "label": "B-n31-k5_2001_trained_Z",
+  "submitted_utc": "2026-10-16T03:04:54.089838+00:00",
+  "task_id": 2610161104550363927,
+  "received_utc": "2026-10-16T05:13:38.345340+00:00"
+ },
+ "Shenglian__B-n31-k5_2001_trained_Z": {
+  "status": "DONE",
+  "chip": "Shenglian",
+  "label": "B-n31-k5_2001_trained_Z",
+  "submitted_utc": "2026-10-16T03:04:54.622445+00:00",
+  "task_id": 2610161104553793952,
+  "received_utc": "2026-10-16T05:13:38.678324+00:00"
+ },
+ "Baihua__A-n45-k7_3001_random_X": {
+  "status": "DONE",
+  "chip": "Baihua",
+  "label": "A-n45-k7_3001_random_X",
+  "submitted_utc": "2026-10-16T03:04:54.991257+00:00",
+  "task_id": 2610161104560106578,
+  "received_utc": "2026-10-16T05:13:38.980826+00:00"
+ },
+ "Shenglian__A-n45-k7_3001_random_X": {
+  "status": "SUBMITTED",
+  "chip": "Shenglian",
+  "label": "A-n45-k7_3001_random_X",
+  "submitted_utc": "2026-10-16T03:04:55.629798+00:00",
+  "task_id": 2610161104564548102
+ },
+ "Baihua__A-n45-k7_3001_trained_X": {
+  "status": "SUBMITTED",
+  "chip": "Baihua",
+  "label": "A-n45-k7_3001_trained_X",
+  "submitted_utc": "2026-10-16T03:04:56.078192+00:00",
+  "task_id": 2610161104568705689
+ },
+ "Shenglian__A-n45-k7_3001_trained_X": {
+  "status": "SUBMITTED",
+  "chip": "Shenglian",
+  "label": "A-n45-k7_3001_trained_X",
+  "submitted_utc": "2026-10-16T03:04:56.413008+00:00",
+  "task_id": 2610161104571834358
+ },
+ "Baihua__A-n45-k7_3001_random_Y": {
+  "status": "SUBMITTED",
+  "chip": "Baihua",
+  "label": "A-n45-k7_3001_random_Y",
+  "submitted_utc": "2026-10-16T03:04:56.759024+00:00",
+  "task_id": 2610161105001785132
+ },
+ "Shenglian__A-n45-k7_3001_random_Y": {
+  "status": "SUBMITTED",
+  "chip": "Shenglian",
+  "label": "A-n45-k7_3001_random_Y",
+  "submitted_utc": "2026-10-16T03:04:59.735055+00:00",
+  "task_id": 2610161105011686081
+ },
+ "Baihua__A-n45-k7_3001_trained_Y": {
+  "status": "SUBMITTED",
+  "chip": "Baihua",
+  "label": "A-n45-k7_3001_trained_Y",
+  "submitted_utc": "2026-10-16T03:05:00.724150+00:00",
+  "task_id": 2610161105016820361
+ },
+ "Shenglian__A-n45-k7_3001_trained_Y": {
+  "status": "SUBMITTED",
+  "chip": "Shenglian",
+  "label": "A-n45-k7_3001_trained_Y",
+  "submitted_utc": "2026-10-16T03:05:01.226683+00:00",
+  "task_id": 2610161105021078928
+ },
+ "Baihua__A-n45-k7_3001_random_Z": {
+  "status": "SUBMITTED",
+  "chip": "Baihua",
+  "label": "A-n45-k7_3001_random_Z",
+  "submitted_utc": "2026-10-16T03:05:01.696615+00:00",
+  "task_id": 2610161105024430986
+ },
+ "Shenglian__A-n45-k7_3001_random_Z": {
+  "status": "SUBMITTED",
+  "chip": "Shenglian",
+  "label": "A-n45-k7_3001_random_Z",
+  "submitted_utc": "2026-10-16T03:05:01.998631+00:00",
+  "task_id": 2610161105027329708
+ },
+ "Baihua__A-n45-k7_3001_trained_Z": {
+  "status": "SUBMITTED",
+  "chip": "Baihua",
+  "label": "A-n45-k7_3001_trained_Z",
+  "submitted_utc": "2026-10-16T03:05:02.299355+00:00",
+  "task_id": 2610161105030238670
+ },
+ "Shenglian__A-n45-k7_3001_trained_Z": {
+  "status": "SUBMITTED",
+  "chip": "Shenglian",
+  "label": "A-n45-k7_3001_trained_Z",
+  "submitted_utc": "2026-10-16T03:05:02.591178+00:00",
+  "task_id": 2610161105034017099
+ }
+}

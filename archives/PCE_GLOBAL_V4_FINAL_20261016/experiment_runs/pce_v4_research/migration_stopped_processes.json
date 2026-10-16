@@ -1,0 +1,52 @@
+[
+  {
+    "ProcessId": 21896,
+    "ParentProcessId": 18992,
+    "CommandLine": "\"D:\\python\\python.exe\" experiment_runs/pce_v4_research/run_final_training.py all"
+  },
+  {
+    "ProcessId": 22732,
+    "ParentProcessId": 21896,
+    "CommandLine": "\"D:\\python\\python.exe\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=21896, pipe_handle=924)\" \"--multiprocessing-fork\""
+  },
+  {
+    "ProcessId": 7024,
+    "ParentProcessId": 21896,
+    "CommandLine": "\"D:\\python\\python.exe\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=21896, pipe_handle=988)\" \"--multiprocessing-fork\""
+  },
+  {
+    "ProcessId": 18208,
+    "ParentProcessId": 21896,
+    "CommandLine": "\"D:\\python\\python.exe\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=21896, pipe_handle=764)\" \"--multiprocessing-fork\""
+  },
+  {
+    "ProcessId": 19284,
+    "ParentProcessId": 21896,
+    "CommandLine": "\"D:\\python\\python.exe\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=21896, pipe_handle=1052)\" \"--multiprocessing-fork\""
+  },
+  {
+    "ProcessId": 23956,
+    "ParentProcessId": 7104,
+    "CommandLine": "\"D:\\python\\python.exe\" experiment_runs/pce_v4_research/run_final_training.py scale_joint"
+  },
+  {
+    "ProcessId": 22328,
+    "ParentProcessId": 23956,
+    "CommandLine": "\"D:\\python\\python.exe\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=23956, pipe_handle=868)\" \"--multiprocessing-fork\""
+  },
+  {
+    "ProcessId": 24540,
+    "ParentProcessId": 23956,
+    "CommandLine": "\"D:\\python\\python.exe\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=23956, pipe_handle=996)\" \"--multiprocessing-fork\""
+  },
+  {
+    "ProcessId": 14576,
+    "ParentProcessId": 23956,
+    "CommandLine": "\"D:\\python\\python.exe\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=23956, pipe_handle=1000)\" \"--multiprocessing-fork\""
+  },
+  {
+    "ProcessId": 788,
+    "ParentProcessId": 23956,
+    "CommandLine": "\"D:\\python\\python.exe\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=23956, pipe_handle=968)\" \"--multiprocessing-fork\""
+  }
+]

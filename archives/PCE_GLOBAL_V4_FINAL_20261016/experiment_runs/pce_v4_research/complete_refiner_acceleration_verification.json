@@ -1,0 +1,248 @@
+{
+ "passed": true,
+ "details": [
+  {
+   "instance": "B-n31-k5",
+   "index": 0,
+   "candidates": 5745,
+   "distance": 799.0
+  },
+  {
+   "instance": "B-n31-k5",
+   "index": 1,
+   "candidates": 8973,
+   "distance": 684.0
+  },
+  {
+   "instance": "B-n31-k5",
+   "index": 2,
+   "candidates": 6628,
+   "distance": 692.0
+  },
+  {
+   "instance": "B-n31-k5",
+   "index": 3,
+   "candidates": 7887,
+   "distance": 698.0
+  },
+  {
+   "instance": "B-n31-k5",
+   "index": 4,
+   "candidates": 8064,
+   "distance": 688.0
+  },
+  {
+   "instance": "B-n31-k5",
+   "index": 5,
+   "candidates": 5140,
+   "distance": 717.0
+  },
+  {
+   "instance": "B-n31-k5",
+   "index": 6,
+   "candidates": 5718,
+   "distance": 721.0
+  },
+  {
+   "instance": "B-n31-k5",
+   "index": 7,
+   "candidates": 6637,
+   "distance": 746.0
+  },
+  {
+   "instance": "B-n31-k5",
+   "index": 8,
+   "candidates": 4694,
+   "distance": 748.0
+  },
+  {
+   "instance": "B-n31-k5",
+   "index": 9,
+   "candidates": 6610,
+   "distance": 752.0
+  },
+  {
+   "instance": "B-n31-k5",
+   "index": 10,
+   "candidates": 5618,
+   "distance": 728.0
+  },
+  {
+   "instance": "B-n31-k5",
+   "index": 11,
+   "candidates": 6587,
+   "distance": 822.0
+  },
+  {
+   "instance": "B-n31-k5",
+   "index": 12,
+   "candidates": 8008,
+   "distance": 705.0
+  },
+  {
+   "instance": "B-n31-k5",
+   "index": 13,
+   "candidates": 8094,
+   "distance": 691.0
+  },
+  {
+   "instance": "B-n31-k5",
+   "index": 14,
+   "candidates": 7830,
+   "distance": 818.0
+  },
+  {
+   "instance": "B-n31-k5",
+   "index": 15,
+   "candidates": 6128,
+   "distance": 801.0
+  },
+  {
+   "instance": "B-n31-k5",
+   "index": 16,
+   "candidates": 7128,
+   "distance": 734.0
+  },
+  {
+   "instance": "B-n31-k5",
+   "index": 17,
+   "candidates": 4629,
+   "distance": 732.0
+  },
+  {
+   "instance": "B-n31-k5",
+   "index": 18,
+   "candidates": 8016,
+   "distance": 741.0
+  },
+  {
+   "instance": "B-n31-k5",
+   "index": 19,
+   "candidates": 10000,
+   "distance": 703.0
+  },
+  {
+   "instance": "A-n45-k7",
+   "index": 0,
+   "candidates": 10000,
+   "distance": 1383.0
+  },
+  {
+   "instance": "A-n45-k7",
+   "index": 1,
+   "candidates": 10000,
+   "distance": 1405.0
+  },
+  {
+   "instance": "A-n45-k7",
+   "index": 2,
+   "candidates": 10000,
+   "distance": 1494.0
+  },
+  {
+   "instance": "A-n45-k7",
+   "index": 3,
+   "candidates": 10000,
+   "distance": 1396.0
+  },
+  {
+   "instance": "A-n45-k7",
+   "index": 4,
+   "candidates": 10000,
+   "distance": 1401.0
+  },
+  {
+   "instance": "A-n45-k7",
+   "index": 5,
+   "candidates": 10000,
+   "distance": 1398.0
+  },
+  {
+   "instance": "A-n45-k7",
+   "index": 6,
+   "candidates": 10000,
+   "distance": 1370.0
+  },
+  {
+   "instance": "A-n45-k7",
+   "index": 7,
+   "candidates": 10000,
+   "distance": 1425.0
+  },
+  {
+   "instance": "A-n45-k7",
+   "index": 8,
+   "candidates": 10000,
+   "distance": 1460.0
+  },
+  {
+   "instance": "A-n45-k7",
+   "index": 9,
+   "candidates": 10000,
+   "distance": 1437.0
+  },
+  {
+   "instance": "A-n45-k7",
+   "index": 10,
+   "candidates": 10000,
+   "distance": 1402.0
+  },
+  {
+   "instance": "A-n45-k7",
+   "index": 11,
+   "candidates": 10000,
+   "distance": 1470.0
+  },
+  {
+   "instance": "A-n45-k7",
+   "index": 12,
+   "candidates": 10000,
+   "distance": 1499.0
+  },
+  {
+   "instance": "A-n45-k7",
+   "index": 13,
+   "candidates": 10000,
+   "distance": 1416.0
+  },
+  {
+   "instance": "A-n45-k7",
+   "index": 14,
+   "candidates": 10000,
+   "distance": 1417.0
+  },
+  {
+   "instance": "A-n45-k7",
+   "index": 15,
+   "candidates": 10000,
+   "distance": 1398.0
+  },
+  {
+   "instance": "A-n45-k7",
+   "index": 16,
+   "candidates": 10000,
+   "distance": 1454.0
+  },
+  {
+   "instance": "A-n45-k7",
+   "index": 17,
+   "candidates": 10000,
+   "distance": 1517.0
+  },
+  {
+   "instance": "A-n45-k7",
+   "index": 18,
+   "candidates": 10000,
+   "distance": 1431.0
+  },
+  {
+   "instance": "A-n45-k7",
+   "index": 19,
+   "candidates": 10000,
+   "distance": 1520.0
+  }
+ ],
+ "original_sha256": "e437f0e47ba1d134befe13a222e16baaa81bb1ff9b1e200f352c4d94edf2cb09",
+ "accelerated_sha256": "cdc758ec5fd32aabf690dc369f4213cd5c45f43a19c408bbea96c9bd06d0eb9f",
+ "scope": "40份正式规模分配：最终分配、首次可行分配、候选评价数、接受步数、最终距离及超载逐项一致。"
+}

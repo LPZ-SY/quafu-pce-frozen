@@ -1,0 +1,89 @@
+{
+ "version": "final_feasibility_hard_gate",
+ "source": "用户在首轮之后明确更新研究目标，覆盖旧文档的原始可行优先要求。",
+ "formula": "H(a)=I_final_feasible*D_final/D_scale + I_final_failed*(1000000+30*O_final/Q) + 0.35*O_raw/Q + 0.10*N_changed/N；L=0.35*H(reference)+0.55*mean(H(4 readouts))+0.10*mean(customer_flip_rate)",
+ "hard_gate": "最终不可行分配记失败，不以其路线长度排名；最终可行分配才计算路线均值、配对距离与差距。失败率作为首要门槛并始终报告。",
+ "weights": {
+  "reference": 0.35,
+  "measurement": 0.55,
+  "instability": 0.1,
+  "raw_overload": 0.35,
+  "changed_customers": 0.1,
+  "final_failure": 1000000
+ },
+ "refinement": {
+  "algorithm": "与原shared.refine相同的确定性最优改进：单客户跨车移动及两客户交换",
+  "candidate_budget": 10000,
+  "stop": "无严格改善移动或候选评价数达到10000",
+  "rng": "精修器本身不使用随机数",
+  "cache": "完整分配及车内路线可缓存；缓存只复用同一确定性结果，不改算法或预算，真实调用数单列"
+ },
+ "groups": [
+  "FINAL_JOINT",
+  "FINAL_RANDOM_SEARCH",
+  "RANDOM_THETA",
+  "LEGACY",
+  "NEW_DECODER",
+  "NEW_JOINT",
+  "V42_GEOMETRY"
+ ],
+ "optimizer": "复用模拟退火单参数扰动；随机搜索每次重新从相同初始化分布抽取全部参数",
+ "seeds": {
+  "development": [
+   1001,
+   1002,
+   1003,
+   1004,
+   1005,
+   1006,
+   1007,
+   1008,
+   1009,
+   1010
+  ],
+  "confirmation": [
+   2001,
+   2002,
+   2003,
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2009,
+   2010,
+   2011,
+   2012,
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2020
+  ],
+  "scale": [
+   3001,
+   3002,
+   3003,
+   3004,
+   3005,
+   3006,
+   3007,
+   3008,
+   3009,
+   3010
+  ]
+ },
+ "budgets": {
+  "objective_queries": 4096,
+  "readout_batches_per_query": 4,
+  "shots_per_full_readout": 4096,
+  "validation_batches": 16,
+  "test_batches": 64
+ },
+ "selection": "验证最终失败率最低→带惩罚目标最低→最终可行路线最短→原始超载最低→净跨车改动最少→翻车率最低→更早检查点",
+ "equality": "新训练与随机搜索使用相同初始参数、查询数、完整测量流和精修规则；旧组原训练预算单列，其测试精修完全相同。",
+ "final_claim": "仅当配对置信区间支持时，声称训练相对随机参数降低原始超载、精修改动并缩短最终可行路线；不预写成功。"
+}

@@ -1,0 +1,414 @@
+{
+ "8": {
+  "path": [
+   154,
+   153,
+   152,
+   151,
+   150,
+   149,
+   136,
+   137
+  ],
+  "selection_score": 9.407906927768098,
+  "qubits": [
+   {
+    "label": "Q154",
+    "index": 154,
+    "T1": 72.696,
+    "T2": 11.547,
+    "fidelity": 0.999,
+    "frequency": 4.462,
+    "readout frequency": 7.067,
+    "readout g_fidelity": 0.0,
+    "readout e_fidelity": 0.0,
+    "length": 6.4e-08,
+    "coordinate": [
+     11,
+     11
+    ]
+   },
+   {
+    "label": "Q153",
+    "index": 153,
+    "T1": 132.089,
+    "T2": 60.608,
+    "fidelity": 0.999,
+    "frequency": 3.923,
+    "readout frequency": 6.758,
+    "readout g_fidelity": 0.0,
+    "readout e_fidelity": 0.0,
+    "length": 6.4e-08,
+    "coordinate": [
+     10,
+     11
+    ]
+   },
+   {
+    "label": "Q152",
+    "index": 152,
+    "T1": 73.49,
+    "T2": 66.697,
+    "fidelity": 0.999,
+    "frequency": 4.406,
+    "readout frequency": 7.024,
+    "readout g_fidelity": 0.0,
+    "readout e_fidelity": 0.0,
+    "length": 6.4e-08,
+    "coordinate": [
+     9,
+     11
+    ]
+   },
+   {
+    "label": "Q151",
+    "index": 151,
+    "T1": 138.532,
+    "T2": 32.819,
+    "fidelity": 0.999,
+    "frequency": 4.013,
+    "readout frequency": 6.72,
+    "readout g_fidelity": 0.0,
+    "readout e_fidelity": 0.0,
+    "length": 6.4e-08,
+    "coordinate": [
+     8,
+     11
+    ]
+   },
+   {
+    "label": "Q150",
+    "index": 150,
+    "T1": 123.795,
+    "T2": 9.223,
+    "fidelity": 0.999,
+    "frequency": 4.47,
+    "readout frequency": 6.985,
+    "readout g_fidelity": 0.0,
+    "readout e_fidelity": 0.0,
+    "length": 6.4e-08,
+    "coordinate": [
+     7,
+     11
+    ]
+   },
+   {
+    "label": "Q149",
+    "index": 149,
+    "T1": 138.511,
+    "T2": 30.739,
+    "fidelity": 0.999,
+    "frequency": 3.947,
+    "readout frequency": 6.676,
+    "readout g_fidelity": 0.0,
+    "readout e_fidelity": 0.0,
+    "length": 6.4e-08,
+    "coordinate": [
+     6,
+     11
+    ]
+   },
+   {
+    "label": "Q136",
+    "index": 136,
+    "T1": 99.102,
+    "T2": 20.102,
+    "fidelity": 0.998,
+    "frequency": 4.526,
+    "readout frequency": 7.023,
+    "readout g_fidelity": 0.0,
+    "readout e_fidelity": 0.0,
+    "length": 6.4e-08,
+    "coordinate": [
+     6,
+     10
+    ]
+   },
+   {
+    "label": "Q137",
+    "index": 137,
+    "T1": 56.213,
+    "T2": 18.405,
+    "fidelity": 0.999,
+    "frequency": 4.084,
+    "readout frequency": 6.758,
+    "readout g_fidelity": 0.0,
+    "readout e_fidelity": 0.0,
+    "length": 6.4e-08,
+    "coordinate": [
+     7,
+     10
+    ]
+   }
+  ],
+  "edges": [
+   {
+    "qubits": [
+     154,
+     153
+    ],
+    "fidelity": 0.992
+   },
+   {
+    "qubits": [
+     153,
+     152
+    ],
+    "fidelity": 0.988
+   },
+   {
+    "qubits": [
+     152,
+     151
+    ],
+    "fidelity": 0.991
+   },
+   {
+    "qubits": [
+     151,
+     150
+    ],
+    "fidelity": 0.975
+   },
+   {
+    "qubits": [
+     150,
+     149
+    ],
+    "fidelity": 0.983
+   },
+   {
+    "qubits": [
+     149,
+     136
+    ],
+    "fidelity": 0.974
+   },
+   {
+    "qubits": [
+     136,
+     137
+    ],
+    "fidelity": 0.996
+   }
+  ]
+ },
+ "9": {
+  "path": [
+   153,
+   152,
+   151,
+   150,
+   149,
+   136,
+   137,
+   138,
+   125
+  ],
+  "selection_score": 10.454520346708764,
+  "qubits": [
+   {
+    "label": "Q153",
+    "index": 153,
+    "T1": 132.089,
+    "T2": 60.608,
+    "fidelity": 0.999,
+    "frequency": 3.923,
+    "readout frequency": 6.758,
+    "readout g_fidelity": 0.0,
+    "readout e_fidelity": 0.0,
+    "length": 6.4e-08,
+    "coordinate": [
+     10,
+     11
+    ]
+   },
+   {
+    "label": "Q152",
+    "index": 152,
+    "T1": 73.49,
+    "T2": 66.697,
+    "fidelity": 0.999,
+    "frequency": 4.406,
+    "readout frequency": 7.024,
+    "readout g_fidelity": 0.0,
+    "readout e_fidelity": 0.0,
+    "length": 6.4e-08,
+    "coordinate": [
+     9,
+     11
+    ]
+   },
+   {
+    "label": "Q151",
+    "index": 151,
+    "T1": 138.532,
+    "T2": 32.819,
+    "fidelity": 0.999,
+    "frequency": 4.013,
+    "readout frequency": 6.72,
+    "readout g_fidelity": 0.0,
+    "readout e_fidelity": 0.0,
+    "length": 6.4e-08,
+    "coordinate": [
+     8,
+     11
+    ]
+   },
+   {
+    "label": "Q150",
+    "index": 150,
+    "T1": 123.795,
+    "T2": 9.223,
+    "fidelity": 0.999,
+    "frequency": 4.47,
+    "readout frequency": 6.985,
+    "readout g_fidelity": 0.0,
+    "readout e_fidelity": 0.0,
+    "length": 6.4e-08,
+    "coordinate": [
+     7,
+     11
+    ]
+   },
+   {
+    "label": "Q149",
+    "index": 149,
+    "T1": 138.511,
+    "T2": 30.739,
+    "fidelity": 0.999,
+    "frequency": 3.947,
+    "readout frequency": 6.676,
+    "readout g_fidelity": 0.0,
+    "readout e_fidelity": 0.0,
+    "length": 6.4e-08,
+    "coordinate": [
+     6,
+     11
+    ]
+   },
+   {
+    "label": "Q136",
+    "index": 136,
+    "T1": 99.102,
+    "T2": 20.102,
+    "fidelity": 0.998,
+    "frequency": 4.526,
+    "readout frequency": 7.023,
+    "readout g_fidelity": 0.0,
+    "readout e_fidelity": 0.0,
+    "length": 6.4e-08,
+    "coordinate": [
+     6,
+     10
+    ]
+   },
+   {
+    "label": "Q137",
+    "index": 137,
+    "T1": 56.213,
+    "T2": 18.405,
+    "fidelity": 0.999,
+    "frequency": 4.084,
+    "readout frequency": 6.758,
+    "readout g_fidelity": 0.0,
+    "readout e_fidelity": 0.0,
+    "length": 6.4e-08,
+    "coordinate": [
+     7,
+     10
+    ]
+   },
+   {
+    "label": "Q138",
+    "index": 138,
+    "T1": 27.885,
+    "T2": 19.835,
+    "fidelity": 0.999,
+    "frequency": 4.432,
+    "readout frequency": 7.069,
+    "readout g_fidelity": 0.0,
+    "readout e_fidelity": 0.0,
+    "length": 6.4e-08,
+    "coordinate": [
+     8,
+     10
+    ]
+   },
+   {
+    "label": "Q125",
+    "index": 125,
+    "T1": 54.418,
+    "T2": 38.488,
+    "fidelity": 0.999,
+    "frequency": 4.023,
+    "readout frequency": 6.73,
+    "readout g_fidelity": 0.0,
+    "readout e_fidelity": 0.0,
+    "length": 6.4e-08,
+    "coordinate": [
+     8,
+     9
+    ]
+   }
+  ],
+  "edges": [
+   {
+    "qubits": [
+     153,
+     152
+    ],
+    "fidelity": 0.988
+   },
+   {
+    "qubits": [
+     152,
+     151
+    ],
+    "fidelity": 0.991
+   },
+   {
+    "qubits": [
+     151,
+     150
+    ],
+    "fidelity": 0.975
+   },
+   {
+    "qubits": [
+     150,
+     149
+    ],
+    "fidelity": 0.983
+   },
+   {
+    "qubits": [
+     149,
+     136
+    ],
+    "fidelity": 0.974
+   },
+   {
+    "qubits": [
+     136,
+     137
+    ],
+    "fidelity": 0.996
+   },
+   {
+    "qubits": [
+     137,
+     138
+    ],
+    "fidelity": 0.992
+   },
+   {
+    "qubits": [
+     138,
+     125
+    ],
+    "fidelity": 0.98
+   }
+  ]
+ }
+}

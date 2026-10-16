@@ -1,0 +1,9 @@
+{
+ "host": "lenovo",
+ "alias": "disco",
+ "pid": 2782284,
+ "python": "/tmp/pzlv_search_budget_audit_20261014_r01/.venv/bin/python",
+ "started_unix": 1792050489.836562,
+ "workers": 12,
+ "cwd": "/tmp/pzlv_pce_v4_research_20261015/pce_v4_research"
+}

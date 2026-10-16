@@ -1,0 +1,414 @@
+{
+ "8": {
+  "path": [
+   41,
+   48,
+   54,
+   47,
+   53,
+   60,
+   66,
+   73
+  ],
+  "selection_score": 7.637242996325873,
+  "qubits": [
+   {
+    "label": "Q41",
+    "index": 41,
+    "T1": 65.836,
+    "T2": 14.096,
+    "fidelity": 0.999,
+    "frequency": 4.474,
+    "readout frequency": 7.047,
+    "readout g_fidelity": 0.0,
+    "readout e_fidelity": 0.0,
+    "length": 4e-08,
+    "coordinate": [
+     13,
+     5
+    ]
+   },
+   {
+    "label": "Q48",
+    "index": 48,
+    "T1": 41.544,
+    "T2": 14.316,
+    "fidelity": 0.999,
+    "frequency": 4.343,
+    "readout frequency": 7.304,
+    "readout g_fidelity": 0.0,
+    "readout e_fidelity": 0.0,
+    "length": 4e-08,
+    "coordinate": [
+     12,
+     6
+    ]
+   },
+   {
+    "label": "Q54",
+    "index": 54,
+    "T1": 156.215,
+    "T2": 13.518,
+    "fidelity": 0.999,
+    "frequency": 4.48,
+    "readout frequency": 6.896,
+    "readout g_fidelity": 0.0,
+    "readout e_fidelity": 0.0,
+    "length": 4e-08,
+    "coordinate": [
+     11,
+     7
+    ]
+   },
+   {
+    "label": "Q47",
+    "index": 47,
+    "T1": 70.218,
+    "T2": 10.892,
+    "fidelity": 0.999,
+    "frequency": 4.272,
+    "readout frequency": 6.965,
+    "readout g_fidelity": 0.0,
+    "readout e_fidelity": 0.0,
+    "length": 4e-08,
+    "coordinate": [
+     10,
+     6
+    ]
+   },
+   {
+    "label": "Q53",
+    "index": 53,
+    "T1": 73.636,
+    "T2": 13.773,
+    "fidelity": 0.999,
+    "frequency": 4.581,
+    "readout frequency": 7.275,
+    "readout g_fidelity": 0.0,
+    "readout e_fidelity": 0.0,
+    "length": 4e-08,
+    "coordinate": [
+     9,
+     7
+    ]
+   },
+   {
+    "label": "Q60",
+    "index": 60,
+    "T1": 91.969,
+    "T2": 12.651,
+    "fidelity": 0.998,
+    "frequency": 4.292,
+    "readout frequency": 6.887,
+    "readout g_fidelity": 0.0,
+    "readout e_fidelity": 0.0,
+    "length": 4e-08,
+    "coordinate": [
+     8,
+     8
+    ]
+   },
+   {
+    "label": "Q66",
+    "index": 66,
+    "T1": 93.834,
+    "T2": 13.398,
+    "fidelity": 0.999,
+    "frequency": 4.499,
+    "readout frequency": 7.153,
+    "readout g_fidelity": 0.0,
+    "readout e_fidelity": 0.0,
+    "length": 4e-08,
+    "coordinate": [
+     7,
+     9
+    ]
+   },
+   {
+    "label": "Q73",
+    "index": 73,
+    "T1": 37.595,
+    "T2": 10.714,
+    "fidelity": 0.999,
+    "frequency": 4.304,
+    "readout frequency": 6.96,
+    "readout g_fidelity": 0.0,
+    "readout e_fidelity": 0.0,
+    "length": 4e-08,
+    "coordinate": [
+     6,
+     10
+    ]
+   }
+  ],
+  "edges": [
+   {
+    "qubits": [
+     41,
+     48
+    ],
+    "fidelity": 0.994
+   },
+   {
+    "qubits": [
+     48,
+     54
+    ],
+    "fidelity": 0.964
+   },
+   {
+    "qubits": [
+     54,
+     47
+    ],
+    "fidelity": 0.964
+   },
+   {
+    "qubits": [
+     47,
+     53
+    ],
+    "fidelity": 0.972
+   },
+   {
+    "qubits": [
+     53,
+     60
+    ],
+    "fidelity": 0.991
+   },
+   {
+    "qubits": [
+     60,
+     66
+    ],
+    "fidelity": 0.997
+   },
+   {
+    "qubits": [
+     66,
+     73
+    ],
+    "fidelity": 0.992
+   }
+  ]
+ },
+ "9": {
+  "path": [
+   66,
+   60,
+   53,
+   47,
+   54,
+   48,
+   41,
+   34,
+   40
+  ],
+  "selection_score": 8.796341359895026,
+  "qubits": [
+   {
+    "label": "Q66",
+    "index": 66,
+    "T1": 93.834,
+    "T2": 13.398,
+    "fidelity": 0.999,
+    "frequency": 4.499,
+    "readout frequency": 7.153,
+    "readout g_fidelity": 0.0,
+    "readout e_fidelity": 0.0,
+    "length": 4e-08,
+    "coordinate": [
+     7,
+     9
+    ]
+   },
+   {
+    "label": "Q60",
+    "index": 60,
+    "T1": 91.969,
+    "T2": 12.651,
+    "fidelity": 0.998,
+    "frequency": 4.292,
+    "readout frequency": 6.887,
+    "readout g_fidelity": 0.0,
+    "readout e_fidelity": 0.0,
+    "length": 4e-08,
+    "coordinate": [
+     8,
+     8
+    ]
+   },
+   {
+    "label": "Q53",
+    "index": 53,
+    "T1": 73.636,
+    "T2": 13.773,
+    "fidelity": 0.999,
+    "frequency": 4.581,
+    "readout frequency": 7.275,
+    "readout g_fidelity": 0.0,
+    "readout e_fidelity": 0.0,
+    "length": 4e-08,
+    "coordinate": [
+     9,
+     7
+    ]
+   },
+   {
+    "label": "Q47",
+    "index": 47,
+    "T1": 70.218,
+    "T2": 10.892,
+    "fidelity": 0.999,
+    "frequency": 4.272,
+    "readout frequency": 6.965,
+    "readout g_fidelity": 0.0,
+    "readout e_fidelity": 0.0,
+    "length": 4e-08,
+    "coordinate": [
+     10,
+     6
+    ]
+   },
+   {
+    "label": "Q54",
+    "index": 54,
+    "T1": 156.215,
+    "T2": 13.518,
+    "fidelity": 0.999,
+    "frequency": 4.48,
+    "readout frequency": 6.896,
+    "readout g_fidelity": 0.0,
+    "readout e_fidelity": 0.0,
+    "length": 4e-08,
+    "coordinate": [
+     11,
+     7
+    ]
+   },
+   {
+    "label": "Q48",
+    "index": 48,
+    "T1": 41.544,
+    "T2": 14.316,
+    "fidelity": 0.999,
+    "frequency": 4.343,
+    "readout frequency": 7.304,
+    "readout g_fidelity": 0.0,
+    "readout e_fidelity": 0.0,
+    "length": 4e-08,
+    "coordinate": [
+     12,
+     6
+    ]
+   },
+   {
+    "label": "Q41",
+    "index": 41,
+    "T1": 65.836,
+    "T2": 14.096,
+    "fidelity": 0.999,
+    "frequency": 4.474,
+    "readout frequency": 7.047,
+    "readout g_fidelity": 0.0,
+    "readout e_fidelity": 0.0,
+    "length": 4e-08,
+    "coordinate": [
+     13,
+     5
+    ]
+   },
+   {
+    "label": "Q34",
+    "index": 34,
+    "T1": 24.005,
+    "T2": 13.094,
+    "fidelity": 0.999,
+    "frequency": 4.333,
+    "readout frequency": 6.891,
+    "readout g_fidelity": 0.0,
+    "readout e_fidelity": 0.0,
+    "length": 4e-08,
+    "coordinate": [
+     12,
+     4
+    ]
+   },
+   {
+    "label": "Q40",
+    "index": 40,
+    "T1": 82.652,
+    "T2": 14.955,
+    "fidelity": 0.999,
+    "frequency": 4.478,
+    "readout frequency": 7.206,
+    "readout g_fidelity": 0.0,
+    "readout e_fidelity": 0.0,
+    "length": 4e-08,
+    "coordinate": [
+     11,
+     5
+    ]
+   }
+  ],
+  "edges": [
+   {
+    "qubits": [
+     66,
+     60
+    ],
+    "fidelity": 0.997
+   },
+   {
+    "qubits": [
+     60,
+     53
+    ],
+    "fidelity": 0.991
+   },
+   {
+    "qubits": [
+     53,
+     47
+    ],
+    "fidelity": 0.972
+   },
+   {
+    "qubits": [
+     47,
+     54
+    ],
+    "fidelity": 0.964
+   },
+   {
+    "qubits": [
+     54,
+     48
+    ],
+    "fidelity": 0.964
+   },
+   {
+    "qubits": [
+     48,
+     41
+    ],
+    "fidelity": 0.994
+   },
+   {
+    "qubits": [
+     41,
+     34
+    ],
+    "fidelity": 0.993
+   },
+   {
+    "qubits": [
+     34,
+     40
+    ],
+    "fidelity": 0.998
+   }
+  ]
+ }
+}

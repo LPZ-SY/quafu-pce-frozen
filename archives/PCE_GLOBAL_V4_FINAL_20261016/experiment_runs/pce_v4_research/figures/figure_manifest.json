@@ -1,0 +1,20 @@
+{
+ "audience": "科研汇报与内部研究报告；未声明满足特定期刊要求",
+ "source": [
+  "models/*/*/*/result.json",
+  "final_tests/*/*/*.json"
+ ],
+ "training": "无平滑；展示全部已完成种子的记录、中位数及25%—75%分位区间；若同一记录含最终失败读出，其距离留空",
+ "comparison": "先汇总每模型64次读出，再以种子为单位20000次重抽样；路线只统计最终可行读出；未完成组不补零",
+ "seed": 20261015,
+ "files": [
+  {
+   "file": "final_comparison.png",
+   "sha256": "ad193a44ff83ecdc6b07521fd26123d243e94b6461a242685eb62c52334e500a"
+  },
+  {
+   "file": "training_curves.png",
+   "sha256": "4c1a121f5ce73b823c68d48e6a1cbf1e900ffc990b8725400a79bf9c6c03d282"
+  }
+ ]
+}

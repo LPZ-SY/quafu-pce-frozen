@@ -1,0 +1,2451 @@
+{
+ "size": [
+  12,
+  7
+ ],
+ "basis_gates": [
+  "h",
+  "rx",
+  "ry",
+  "rz",
+  "cz"
+ ],
+ "priority_qubits": [
+  [
+   51
+  ],
+  [
+   44,
+   51
+  ],
+  [
+   2,
+   9,
+   3
+  ],
+  [
+   8,
+   2,
+   9,
+   3
+  ],
+  [
+   8,
+   2,
+   9,
+   3,
+   10
+  ],
+  [
+   8,
+   2,
+   9,
+   3,
+   10,
+   4
+  ],
+  [
+   8,
+   2,
+   9,
+   3,
+   10,
+   4,
+   11
+  ],
+  [
+   15,
+   8,
+   2,
+   9,
+   3,
+   10,
+   4,
+   11
+  ],
+  [
+   28,
+   21,
+   15,
+   8,
+   2,
+   9,
+   3,
+   10,
+   4
+  ],
+  [
+   60,
+   53,
+   47,
+   40,
+   34,
+   41,
+   48,
+   54,
+   61,
+   67
+  ],
+  [
+   28,
+   21,
+   15,
+   8,
+   2,
+   9,
+   3,
+   10,
+   4,
+   11
+  ],
+  [
+   40,
+   34,
+   41,
+   48,
+   54,
+   61,
+   67,
+   60,
+   66,
+   59,
+   52
+  ],
+  [
+   72,
+   65,
+   59,
+   66,
+   60,
+   67,
+   61,
+   54,
+   48,
+   41,
+   34,
+   40
+  ]
+ ],
+ "calibration_time": "2026-05-14 12:24:38",
+ "qubits_info": {
+  "Q0": {
+   "label": "Q0",
+   "index": 0,
+   "T1": 146.956,
+   "T2": 14.897,
+   "fidelity": 0.999,
+   "frequency": 3.632,
+   "readout frequency": 6.836,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    0,
+    0
+   ]
+  },
+  "Q1": {
+   "label": "Q1",
+   "index": 1,
+   "T1": 111.887,
+   "T2": 15.085,
+   "fidelity": 0.0,
+   "frequency": 4.324,
+   "readout frequency": 7.169,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    2,
+    0
+   ]
+  },
+  "Q2": {
+   "label": "Q2",
+   "index": 2,
+   "T1": 28.364,
+   "T2": 11.967,
+   "fidelity": 0.999,
+   "frequency": 3.834,
+   "readout frequency": 6.966,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    4,
+    0
+   ]
+  },
+  "Q3": {
+   "label": "Q3",
+   "index": 3,
+   "T1": 130.206,
+   "T2": 10.381,
+   "fidelity": 0.999,
+   "frequency": 3.847,
+   "readout frequency": 7.302,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    6,
+    0
+   ]
+  },
+  "Q4": {
+   "label": "Q4",
+   "index": 4,
+   "T1": 200.0,
+   "T2": 8.047,
+   "fidelity": 0.999,
+   "frequency": 3.871,
+   "readout frequency": 6.886,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    8,
+    0
+   ]
+  },
+  "Q5": {
+   "label": "Q5",
+   "index": 5,
+   "T1": 124.604,
+   "T2": 16.617,
+   "fidelity": 0.997,
+   "frequency": 3.88,
+   "readout frequency": 7.241,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    10,
+    0
+   ]
+  },
+  "Q6": {
+   "label": "Q6",
+   "index": 6,
+   "T1": 63.753,
+   "T2": 5.474,
+   "fidelity": 0.999,
+   "frequency": 3.953,
+   "readout frequency": 7.049,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    12,
+    0
+   ]
+  },
+  "Q7": {
+   "label": "Q7",
+   "index": 7,
+   "T1": 70.215,
+   "T2": 17.969,
+   "fidelity": 0.999,
+   "frequency": 4.144,
+   "readout frequency": 6.959,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    1,
+    1
+   ]
+  },
+  "Q8": {
+   "label": "Q8",
+   "index": 8,
+   "T1": 130.82,
+   "T2": 11.46,
+   "fidelity": 0.999,
+   "frequency": 4.07,
+   "readout frequency": 7.225,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    3,
+    1
+   ]
+  },
+  "Q9": {
+   "label": "Q9",
+   "index": 9,
+   "T1": 146.383,
+   "T2": 8.832,
+   "fidelity": 0.999,
+   "frequency": 4.118,
+   "readout frequency": 6.812,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    5,
+    1
+   ]
+  },
+  "Q10": {
+   "label": "Q10",
+   "index": 10,
+   "T1": 87.312,
+   "T2": 2.885,
+   "fidelity": 0.999,
+   "frequency": 4.124,
+   "readout frequency": 7.155,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    7,
+    1
+   ]
+  },
+  "Q11": {
+   "label": "Q11",
+   "index": 11,
+   "T1": 144.446,
+   "T2": 3.275,
+   "fidelity": 0.999,
+   "frequency": 4.227,
+   "readout frequency": 7.04,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    9,
+    1
+   ]
+  },
+  "Q12": {
+   "label": "Q12",
+   "index": 12,
+   "T1": 120.092,
+   "T2": 5.597,
+   "fidelity": 0.999,
+   "frequency": 4.254,
+   "readout frequency": 7.291,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    11,
+    1
+   ]
+  },
+  "Q13": {
+   "label": "Q13",
+   "index": 13,
+   "T1": 111.431,
+   "T2": 6.096,
+   "fidelity": 0.999,
+   "frequency": 4.075,
+   "readout frequency": 6.892,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    13,
+    1
+   ]
+  },
+  "Q14": {
+   "label": "Q14",
+   "index": 14,
+   "T1": 101.182,
+   "T2": 7.972,
+   "fidelity": 0.999,
+   "frequency": 3.923,
+   "readout frequency": 7.26,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    0,
+    2
+   ]
+  },
+  "Q15": {
+   "label": "Q15",
+   "index": 15,
+   "T1": 144.765,
+   "T2": 11.268,
+   "fidelity": 0.999,
+   "frequency": 3.821,
+   "readout frequency": 6.825,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    2,
+    2
+   ]
+  },
+  "Q16": {
+   "label": "Q16",
+   "index": 16,
+   "T1": 117.272,
+   "T2": 12.198,
+   "fidelity": 0.999,
+   "frequency": 3.912,
+   "readout frequency": 7.078,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    4,
+    2
+   ]
+  },
+  "Q17": {
+   "label": "Q17",
+   "index": 17,
+   "T1": 151.754,
+   "T2": 6.178,
+   "fidelity": 0.992,
+   "frequency": 3.902,
+   "readout frequency": 6.956,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    6,
+    2
+   ]
+  },
+  "Q18": {
+   "label": "Q18",
+   "index": 18,
+   "T1": 79.742,
+   "T2": 3.282,
+   "fidelity": 0.999,
+   "frequency": 4.2,
+   "readout frequency": 7.3,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    8,
+    2
+   ]
+  },
+  "Q19": {
+   "label": "Q19",
+   "index": 19,
+   "T1": 137.031,
+   "T2": 9.561,
+   "fidelity": 0.999,
+   "frequency": 3.903,
+   "readout frequency": 6.89,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    10,
+    2
+   ]
+  },
+  "Q20": {
+   "label": "Q20",
+   "index": 20,
+   "T1": 128.308,
+   "T2": 0.0,
+   "fidelity": 1.0,
+   "frequency": 4.068,
+   "readout frequency": 7.166,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    12,
+    2
+   ]
+  },
+  "Q21": {
+   "label": "Q21",
+   "index": 21,
+   "T1": 114.091,
+   "T2": 6.144,
+   "fidelity": 0.999,
+   "frequency": 4.17,
+   "readout frequency": 7.086,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    1,
+    3
+   ]
+  },
+  "Q22": {
+   "label": "Q22",
+   "index": 22,
+   "T1": 87.707,
+   "T2": 1.344,
+   "fidelity": 1.0,
+   "frequency": 4.187,
+   "readout frequency": 6.873,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    3,
+    3
+   ]
+  },
+  "Q23": {
+   "label": "Q23",
+   "index": 23,
+   "T1": 113.678,
+   "T2": 4.671,
+   "fidelity": 0.997,
+   "frequency": 4.359,
+   "readout frequency": 7.219,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    5,
+    3
+   ]
+  },
+  "Q24": {
+   "label": "Q24",
+   "index": 24,
+   "T1": 106.536,
+   "T2": 1.239,
+   "fidelity": 0.945,
+   "frequency": 4.392,
+   "readout frequency": 6.811,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    7,
+    3
+   ]
+  },
+  "Q25": {
+   "label": "Q25",
+   "index": 25,
+   "T1": 115.034,
+   "T2": 1.417,
+   "fidelity": 0.998,
+   "frequency": 4.275,
+   "readout frequency": 7.155,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    9,
+    3
+   ]
+  },
+  "Q26": {
+   "label": "Q26",
+   "index": 26,
+   "T1": 65.419,
+   "T2": 11.9,
+   "fidelity": 0.952,
+   "frequency": 4.143,
+   "readout frequency": 6.957,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    11,
+    3
+   ]
+  },
+  "Q27": {
+   "label": "Q27",
+   "index": 27,
+   "T1": 126.304,
+   "T2": 12.174,
+   "fidelity": 0.999,
+   "frequency": 4.241,
+   "readout frequency": 7.297,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    13,
+    3
+   ]
+  },
+  "Q28": {
+   "label": "Q28",
+   "index": 28,
+   "T1": 140.665,
+   "T2": 8.163,
+   "fidelity": 0.999,
+   "frequency": 3.962,
+   "readout frequency": 6.966,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    0,
+    4
+   ]
+  },
+  "Q29": {
+   "label": "Q29",
+   "index": 29,
+   "T1": 127.355,
+   "T2": 8.469,
+   "fidelity": 0.999,
+   "frequency": 4.158,
+   "readout frequency": 7.232,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    2,
+    4
+   ]
+  },
+  "Q30": {
+   "label": "Q30",
+   "index": 30,
+   "T1": 133.905,
+   "T2": 4.79,
+   "fidelity": 0.998,
+   "frequency": 4.088,
+   "readout frequency": 6.826,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    4,
+    4
+   ]
+  },
+  "Q31": {
+   "label": "Q31",
+   "index": 31,
+   "T1": 109.113,
+   "T2": 8.916,
+   "fidelity": 0.999,
+   "frequency": 4.097,
+   "readout frequency": 7.163,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    6,
+    4
+   ]
+  },
+  "Q32": {
+   "label": "Q32",
+   "index": 32,
+   "T1": 200.0,
+   "T2": 14.844,
+   "fidelity": 0.999,
+   "frequency": 3.98,
+   "readout frequency": 7.029,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    8,
+    4
+   ]
+  },
+  "Q33": {
+   "label": "Q33",
+   "index": 33,
+   "T1": 106.439,
+   "T2": 11.378,
+   "fidelity": 0.999,
+   "frequency": 4.081,
+   "readout frequency": 7.298,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    10,
+    4
+   ]
+  },
+  "Q34": {
+   "label": "Q34",
+   "index": 34,
+   "T1": 90.836,
+   "T2": 7.194,
+   "fidelity": 0.999,
+   "frequency": 3.951,
+   "readout frequency": 6.896,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    12,
+    4
+   ]
+  },
+  "Q35": {
+   "label": "Q35",
+   "index": 35,
+   "T1": 138.051,
+   "T2": 1.231,
+   "fidelity": 0.992,
+   "frequency": 4.209,
+   "readout frequency": 6.821,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    1,
+    5
+   ]
+  },
+  "Q36": {
+   "label": "Q36",
+   "index": 36,
+   "T1": 100.142,
+   "T2": 6.056,
+   "fidelity": 1.0,
+   "frequency": 4.354,
+   "readout frequency": 7.154,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    3,
+    5
+   ]
+  },
+  "Q37": {
+   "label": "Q37",
+   "index": 37,
+   "T1": 159.098,
+   "T2": 3.798,
+   "fidelity": 0.998,
+   "frequency": 4.292,
+   "readout frequency": 6.939,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    5,
+    5
+   ]
+  },
+  "Q38": {
+   "label": "Q38",
+   "index": 38,
+   "T1": 102.386,
+   "T2": 8.423,
+   "fidelity": 0.998,
+   "frequency": 4.455,
+   "readout frequency": 7.277,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    7,
+    5
+   ]
+  },
+  "Q39": {
+   "label": "Q39",
+   "index": 39,
+   "T1": 130.72,
+   "T2": 1.359,
+   "fidelity": 0.999,
+   "frequency": 4.299,
+   "readout frequency": 6.884,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    9,
+    5
+   ]
+  },
+  "Q40": {
+   "label": "Q40",
+   "index": 40,
+   "T1": 54.55,
+   "T2": 8.067,
+   "fidelity": 0.999,
+   "frequency": 4.348,
+   "readout frequency": 7.213,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    11,
+    5
+   ]
+  },
+  "Q41": {
+   "label": "Q41",
+   "index": 41,
+   "T1": 97.794,
+   "T2": 9.647,
+   "fidelity": 0.998,
+   "frequency": 4.192,
+   "readout frequency": 7.044,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    13,
+    5
+   ]
+  },
+  "Q42": {
+   "label": "Q42",
+   "index": 42,
+   "T1": 117.563,
+   "T2": 8.533,
+   "fidelity": 0.999,
+   "frequency": 4.025,
+   "readout frequency": 7.112,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    0,
+    6
+   ]
+  },
+  "Q43": {
+   "label": "Q43",
+   "index": 43,
+   "T1": 96.431,
+   "T2": 8.117,
+   "fidelity": 0.999,
+   "frequency": 4.002,
+   "readout frequency": 6.893,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    2,
+    6
+   ]
+  },
+  "Q44": {
+   "label": "Q44",
+   "index": 44,
+   "T1": 138.05,
+   "T2": 68.35,
+   "fidelity": 0.999,
+   "frequency": 4.107,
+   "readout frequency": 7.23,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    4,
+    6
+   ]
+  },
+  "Q45": {
+   "label": "Q45",
+   "index": 45,
+   "T1": 116.486,
+   "T2": 6.269,
+   "fidelity": 0.999,
+   "frequency": 4.112,
+   "readout frequency": 6.824,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    6,
+    6
+   ]
+  },
+  "Q46": {
+   "label": "Q46",
+   "index": 46,
+   "T1": 78.83,
+   "T2": 6.792,
+   "fidelity": 0.996,
+   "frequency": 4.243,
+   "readout frequency": 7.168,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    8,
+    6
+   ]
+  },
+  "Q47": {
+   "label": "Q47",
+   "index": 47,
+   "T1": 59.195,
+   "T2": 4.745,
+   "fidelity": 0.998,
+   "frequency": 4.09,
+   "readout frequency": 6.959,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    10,
+    6
+   ]
+  },
+  "Q48": {
+   "label": "Q48",
+   "index": 48,
+   "T1": 82.651,
+   "T2": 13.348,
+   "fidelity": 0.999,
+   "frequency": 4.034,
+   "readout frequency": 7.297,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    12,
+    6
+   ]
+  },
+  "Q49": {
+   "label": "Q49",
+   "index": 49,
+   "T1": 90.18,
+   "T2": 11.433,
+   "fidelity": 0.999,
+   "frequency": 4.174,
+   "readout frequency": 7.237,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    1,
+    7
+   ]
+  },
+  "Q50": {
+   "label": "Q50",
+   "index": 50,
+   "T1": 105.169,
+   "T2": 2.668,
+   "fidelity": 0.999,
+   "frequency": 4.315,
+   "readout frequency": 6.807,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    3,
+    7
+   ]
+  },
+  "Q51": {
+   "label": "Q51",
+   "index": 51,
+   "T1": 37.072,
+   "T2": 9.481,
+   "fidelity": 0.996,
+   "frequency": 4.38,
+   "readout frequency": 7.066,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    5,
+    7
+   ]
+  },
+  "Q52": {
+   "label": "Q52",
+   "index": 52,
+   "T1": 101.64,
+   "T2": 4.435,
+   "fidelity": 0.999,
+   "frequency": 4.298,
+   "readout frequency": 6.944,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    7,
+    7
+   ]
+  },
+  "Q53": {
+   "label": "Q53",
+   "index": 53,
+   "T1": 107.812,
+   "T2": 6.242,
+   "fidelity": 0.999,
+   "frequency": 4.416,
+   "readout frequency": 7.284,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    9,
+    7
+   ]
+  },
+  "Q54": {
+   "label": "Q54",
+   "index": 54,
+   "T1": 86.687,
+   "T2": 8.551,
+   "fidelity": 0.999,
+   "frequency": 4.391,
+   "readout frequency": 6.893,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    11,
+    7
+   ]
+  },
+  "Q55": {
+   "label": "Q55",
+   "index": 55,
+   "T1": 44.421,
+   "T2": 3.024,
+   "fidelity": 0.999,
+   "frequency": 4.248,
+   "readout frequency": 7.165,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    13,
+    7
+   ]
+  },
+  "Q56": {
+   "label": "Q56",
+   "index": 56,
+   "T1": 56.965,
+   "T2": 26.73,
+   "fidelity": 0.999,
+   "frequency": 3.849,
+   "readout frequency": 6.833,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    0,
+    8
+   ]
+  },
+  "Q57": {
+   "label": "Q57",
+   "index": 57,
+   "T1": 68.557,
+   "T2": 1.807,
+   "fidelity": 0.0,
+   "frequency": 4.129,
+   "readout frequency": 7.163,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    2,
+    8
+   ]
+  },
+  "Q58": {
+   "label": "Q58",
+   "index": 58,
+   "T1": 72.551,
+   "T2": 9.319,
+   "fidelity": 0.999,
+   "frequency": 4.179,
+   "readout frequency": 6.962,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    4,
+    8
+   ]
+  },
+  "Q59": {
+   "label": "Q59",
+   "index": 59,
+   "T1": 75.963,
+   "T2": 7.551,
+   "fidelity": 0.999,
+   "frequency": 4.207,
+   "readout frequency": 7.292,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    6,
+    8
+   ]
+  },
+  "Q60": {
+   "label": "Q60",
+   "index": 60,
+   "T1": 88.78,
+   "T2": 12.353,
+   "fidelity": 0.999,
+   "frequency": 4.141,
+   "readout frequency": 6.882,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    8,
+    8
+   ]
+  },
+  "Q61": {
+   "label": "Q61",
+   "index": 61,
+   "T1": 54.562,
+   "T2": 6.5,
+   "fidelity": 0.999,
+   "frequency": 4.18,
+   "readout frequency": 7.23,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    10,
+    8
+   ]
+  },
+  "Q62": {
+   "label": "Q62",
+   "index": 62,
+   "T1": 41.374,
+   "T2": 3.952,
+   "fidelity": 0.999,
+   "frequency": 4.006,
+   "readout frequency": 7.052,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    12,
+    8
+   ]
+  },
+  "Q63": {
+   "label": "Q63",
+   "index": 63,
+   "T1": 64.965,
+   "T2": 42.139,
+   "fidelity": 0.999,
+   "frequency": 4.275,
+   "readout frequency": 6.956,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    1,
+    9
+   ]
+  },
+  "Q64": {
+   "label": "Q64",
+   "index": 64,
+   "T1": 71.75,
+   "T2": 13.126,
+   "fidelity": 0.997,
+   "frequency": 4.295,
+   "readout frequency": 7.222,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    3,
+    9
+   ]
+  },
+  "Q65": {
+   "label": "Q65",
+   "index": 65,
+   "T1": 27.805,
+   "T2": 12.353,
+   "fidelity": 0.998,
+   "frequency": 4.447,
+   "readout frequency": 6.811,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    5,
+    9
+   ]
+  },
+  "Q66": {
+   "label": "Q66",
+   "index": 66,
+   "T1": 66.361,
+   "T2": 11.742,
+   "fidelity": 0.999,
+   "frequency": 4.455,
+   "readout frequency": 7.145,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    7,
+    9
+   ]
+  },
+  "Q67": {
+   "label": "Q67",
+   "index": 67,
+   "T1": 31.438,
+   "T2": 6.871,
+   "fidelity": 0.997,
+   "frequency": 4.385,
+   "readout frequency": 7.044,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    9,
+    9
+   ]
+  },
+  "Q68": {
+   "label": "Q68",
+   "index": 68,
+   "T1": 56.58,
+   "T2": 7.416,
+   "fidelity": 0.999,
+   "frequency": 4.461,
+   "readout frequency": 7.284,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    11,
+    9
+   ]
+  },
+  "Q69": {
+   "label": "Q69",
+   "index": 69,
+   "T1": 49.081,
+   "T2": 15.155,
+   "fidelity": 0.999,
+   "frequency": 4.205,
+   "readout frequency": 6.895,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    13,
+    9
+   ]
+  },
+  "Q70": {
+   "label": "Q70",
+   "index": 70,
+   "T1": 74.451,
+   "T2": 8.565,
+   "fidelity": 0.999,
+   "frequency": 4.022,
+   "readout frequency": 7.249,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    0,
+    10
+   ]
+  },
+  "Q71": {
+   "label": "Q71",
+   "index": 71,
+   "T1": 84.785,
+   "T2": 10.487,
+   "fidelity": 0.998,
+   "frequency": 4.002,
+   "readout frequency": 6.824,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    2,
+    10
+   ]
+  },
+  "Q72": {
+   "label": "Q72",
+   "index": 72,
+   "T1": 78.268,
+   "T2": 13.087,
+   "fidelity": 0.999,
+   "frequency": 4.208,
+   "readout frequency": 7.073,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    4,
+    10
+   ]
+  },
+  "Q73": {
+   "label": "Q73",
+   "index": 73,
+   "T1": 58.796,
+   "T2": 7.809,
+   "fidelity": 0.0,
+   "frequency": 4.213,
+   "readout frequency": 6.96,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    6,
+    10
+   ]
+  },
+  "Q74": {
+   "label": "Q74",
+   "index": 74,
+   "T1": 44.474,
+   "T2": 5.624,
+   "fidelity": 0.0,
+   "frequency": 4.201,
+   "readout frequency": 7.294,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    8,
+    10
+   ]
+  },
+  "Q75": {
+   "label": "Q75",
+   "index": 75,
+   "T1": 18.614,
+   "T2": 1.199,
+   "fidelity": 0.0,
+   "frequency": 3.985,
+   "readout frequency": 6.898,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    10,
+    10
+   ]
+  },
+  "Q76": {
+   "label": "Q76",
+   "index": 76,
+   "T1": 32.252,
+   "T2": 12.712,
+   "fidelity": 0.0,
+   "frequency": 4.12,
+   "readout frequency": 7.166,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    12,
+    10
+   ]
+  },
+  "Q77": {
+   "label": "Q77",
+   "index": 77,
+   "T1": 60.77,
+   "T2": 1.982,
+   "fidelity": 0.0,
+   "frequency": 4.244,
+   "readout frequency": 7.066,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    1,
+    11
+   ]
+  },
+  "Q78": {
+   "label": "Q78",
+   "index": 78,
+   "T1": 78.254,
+   "T2": 8.348,
+   "fidelity": 0.0,
+   "frequency": 4.411,
+   "readout frequency": 6.836,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    3,
+    11
+   ]
+  },
+  "Q79": {
+   "label": "Q79",
+   "index": 79,
+   "T1": 35.92,
+   "T2": 6.185,
+   "fidelity": 0.0,
+   "frequency": 4.41,
+   "readout frequency": 7.211,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    5,
+    11
+   ]
+  },
+  "Q80": {
+   "label": "Q80",
+   "index": 80,
+   "T1": 55.575,
+   "T2": 3.97,
+   "fidelity": 0.0,
+   "frequency": 4.438,
+   "readout frequency": 6.813,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    7,
+    11
+   ]
+  },
+  "Q81": {
+   "label": "Q81",
+   "index": 81,
+   "T1": 52.587,
+   "T2": 7.154,
+   "fidelity": 0.0,
+   "frequency": 4.436,
+   "readout frequency": 7.144,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    9,
+    11
+   ]
+  },
+  "Q82": {
+   "label": "Q82",
+   "index": 82,
+   "T1": 0.0,
+   "T2": 0.0,
+   "fidelity": 0.0,
+   "frequency": 4.515,
+   "readout frequency": 6.87,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    11,
+    11
+   ]
+  },
+  "Q83": {
+   "label": "Q83",
+   "index": 83,
+   "T1": 0.0,
+   "T2": 0.0,
+   "fidelity": 0.0,
+   "frequency": 3.593,
+   "readout frequency": 7.289,
+   "readout g_fidelity": null,
+   "readout e_fidelity": null,
+   "coordinate": [
+    13,
+    11
+   ]
+  }
+ },
+ "couplers_info": {
+  "C0": {
+   "label": "C0",
+   "index": 0,
+   "fidelity": 0.0,
+   "qubits_index": [
+    0,
+    7
+   ]
+  },
+  "C1": {
+   "label": "C1",
+   "index": 1,
+   "fidelity": 0.0,
+   "qubits_index": [
+    1,
+    7
+   ]
+  },
+  "C2": {
+   "label": "C2",
+   "index": 2,
+   "fidelity": 0.0,
+   "qubits_index": [
+    1,
+    8
+   ]
+  },
+  "C3": {
+   "label": "C3",
+   "index": 3,
+   "fidelity": 0.993,
+   "qubits_index": [
+    2,
+    8
+   ]
+  },
+  "C4": {
+   "label": "C4",
+   "index": 4,
+   "fidelity": 0.988,
+   "qubits_index": [
+    2,
+    9
+   ]
+  },
+  "C5": {
+   "label": "C5",
+   "index": 5,
+   "fidelity": 0.988,
+   "qubits_index": [
+    3,
+    9
+   ]
+  },
+  "C6": {
+   "label": "C6",
+   "index": 6,
+   "fidelity": 0.992,
+   "qubits_index": [
+    3,
+    10
+   ]
+  },
+  "C7": {
+   "label": "C7",
+   "index": 7,
+   "fidelity": 0.988,
+   "qubits_index": [
+    4,
+    10
+   ]
+  },
+  "C8": {
+   "label": "C8",
+   "index": 8,
+   "fidelity": 0.986,
+   "qubits_index": [
+    4,
+    11
+   ]
+  },
+  "C9": {
+   "label": "C9",
+   "index": 9,
+   "fidelity": 0.895,
+   "qubits_index": [
+    5,
+    11
+   ]
+  },
+  "C10": {
+   "label": "C10",
+   "index": 10,
+   "fidelity": 0.499,
+   "qubits_index": [
+    5,
+    12
+   ]
+  },
+  "C11": {
+   "label": "C11",
+   "index": 11,
+   "fidelity": 0.957,
+   "qubits_index": [
+    6,
+    12
+   ]
+  },
+  "C12": {
+   "label": "C12",
+   "index": 12,
+   "fidelity": 0.952,
+   "qubits_index": [
+    6,
+    13
+   ]
+  },
+  "C13": {
+   "label": "C13",
+   "index": 13,
+   "fidelity": 0.0,
+   "qubits_index": [
+    7,
+    14
+   ]
+  },
+  "C14": {
+   "label": "C14",
+   "index": 14,
+   "fidelity": 0.998,
+   "qubits_index": [
+    8,
+    15
+   ]
+  },
+  "C15": {
+   "label": "C15",
+   "index": 15,
+   "fidelity": 0.979,
+   "qubits_index": [
+    9,
+    16
+   ]
+  },
+  "C16": {
+   "label": "C16",
+   "index": 16,
+   "fidelity": 0.991,
+   "qubits_index": [
+    10,
+    17
+   ]
+  },
+  "C17": {
+   "label": "C17",
+   "index": 17,
+   "fidelity": 0.0,
+   "qubits_index": [
+    11,
+    18
+   ]
+  },
+  "C18": {
+   "label": "C18",
+   "index": 18,
+   "fidelity": 0.951,
+   "qubits_index": [
+    12,
+    19
+   ]
+  },
+  "C19": {
+   "label": "C19",
+   "index": 19,
+   "fidelity": 0.25,
+   "qubits_index": [
+    13,
+    20
+   ]
+  },
+  "C20": {
+   "label": "C20",
+   "index": 20,
+   "fidelity": 0.971,
+   "qubits_index": [
+    14,
+    21
+   ]
+  },
+  "C21": {
+   "label": "C21",
+   "index": 21,
+   "fidelity": 0.826,
+   "qubits_index": [
+    15,
+    21
+   ]
+  },
+  "C22": {
+   "label": "C22",
+   "index": 22,
+   "fidelity": 0.0,
+   "qubits_index": [
+    15,
+    22
+   ]
+  },
+  "C23": {
+   "label": "C23",
+   "index": 23,
+   "fidelity": 0.0,
+   "qubits_index": [
+    16,
+    22
+   ]
+  },
+  "C24": {
+   "label": "C24",
+   "index": 24,
+   "fidelity": 0.562,
+   "qubits_index": [
+    16,
+    23
+   ]
+  },
+  "C25": {
+   "label": "C25",
+   "index": 25,
+   "fidelity": 0.514,
+   "qubits_index": [
+    17,
+    23
+   ]
+  },
+  "C26": {
+   "label": "C26",
+   "index": 26,
+   "fidelity": 0.0,
+   "qubits_index": [
+    17,
+    24
+   ]
+  },
+  "C27": {
+   "label": "C27",
+   "index": 27,
+   "fidelity": 0.0,
+   "qubits_index": [
+    18,
+    24
+   ]
+  },
+  "C28": {
+   "label": "C28",
+   "index": 28,
+   "fidelity": 0.0,
+   "qubits_index": [
+    18,
+    25
+   ]
+  },
+  "C29": {
+   "label": "C29",
+   "index": 29,
+   "fidelity": 0.0,
+   "qubits_index": [
+    19,
+    25
+   ]
+  },
+  "C30": {
+   "label": "C30",
+   "index": 30,
+   "fidelity": 0.834,
+   "qubits_index": [
+    19,
+    26
+   ]
+  },
+  "C31": {
+   "label": "C31",
+   "index": 31,
+   "fidelity": 0.895,
+   "qubits_index": [
+    20,
+    26
+   ]
+  },
+  "C32": {
+   "label": "C32",
+   "index": 32,
+   "fidelity": 0.923,
+   "qubits_index": [
+    20,
+    27
+   ]
+  },
+  "C33": {
+   "label": "C33",
+   "index": 33,
+   "fidelity": 0.993,
+   "qubits_index": [
+    21,
+    28
+   ]
+  },
+  "C34": {
+   "label": "C34",
+   "index": 34,
+   "fidelity": 0.0,
+   "qubits_index": [
+    22,
+    29
+   ]
+  },
+  "C35": {
+   "label": "C35",
+   "index": 35,
+   "fidelity": 0.919,
+   "qubits_index": [
+    23,
+    30
+   ]
+  },
+  "C36": {
+   "label": "C36",
+   "index": 36,
+   "fidelity": 0.0,
+   "qubits_index": [
+    24,
+    31
+   ]
+  },
+  "C37": {
+   "label": "C37",
+   "index": 37,
+   "fidelity": 0.962,
+   "qubits_index": [
+    25,
+    32
+   ]
+  },
+  "C38": {
+   "label": "C38",
+   "index": 38,
+   "fidelity": 0.851,
+   "qubits_index": [
+    26,
+    33
+   ]
+  },
+  "C39": {
+   "label": "C39",
+   "index": 39,
+   "fidelity": 0.974,
+   "qubits_index": [
+    27,
+    34
+   ]
+  },
+  "C40": {
+   "label": "C40",
+   "index": 40,
+   "fidelity": 0.933,
+   "qubits_index": [
+    28,
+    35
+   ]
+  },
+  "C41": {
+   "label": "C41",
+   "index": 41,
+   "fidelity": 0.502,
+   "qubits_index": [
+    29,
+    35
+   ]
+  },
+  "C42": {
+   "label": "C42",
+   "index": 42,
+   "fidelity": 0.882,
+   "qubits_index": [
+    29,
+    36
+   ]
+  },
+  "C43": {
+   "label": "C43",
+   "index": 43,
+   "fidelity": 0.595,
+   "qubits_index": [
+    30,
+    36
+   ]
+  },
+  "C44": {
+   "label": "C44",
+   "index": 44,
+   "fidelity": 0.932,
+   "qubits_index": [
+    30,
+    37
+   ]
+  },
+  "C45": {
+   "label": "C45",
+   "index": 45,
+   "fidelity": 0.975,
+   "qubits_index": [
+    31,
+    37
+   ]
+  },
+  "C46": {
+   "label": "C46",
+   "index": 46,
+   "fidelity": 0.0,
+   "qubits_index": [
+    31,
+    38
+   ]
+  },
+  "C47": {
+   "label": "C47",
+   "index": 47,
+   "fidelity": 0.0,
+   "qubits_index": [
+    32,
+    38
+   ]
+  },
+  "C48": {
+   "label": "C48",
+   "index": 48,
+   "fidelity": 0.0,
+   "qubits_index": [
+    32,
+    39
+   ]
+  },
+  "C49": {
+   "label": "C49",
+   "index": 49,
+   "fidelity": 0.735,
+   "qubits_index": [
+    33,
+    39
+   ]
+  },
+  "C50": {
+   "label": "C50",
+   "index": 50,
+   "fidelity": 0.952,
+   "qubits_index": [
+    33,
+    40
+   ]
+  },
+  "C51": {
+   "label": "C51",
+   "index": 51,
+   "fidelity": 0.953,
+   "qubits_index": [
+    34,
+    40
+   ]
+  },
+  "C52": {
+   "label": "C52",
+   "index": 52,
+   "fidelity": 0.995,
+   "qubits_index": [
+    34,
+    41
+   ]
+  },
+  "C53": {
+   "label": "C53",
+   "index": 53,
+   "fidelity": 0.251,
+   "qubits_index": [
+    35,
+    42
+   ]
+  },
+  "C54": {
+   "label": "C54",
+   "index": 54,
+   "fidelity": 0.852,
+   "qubits_index": [
+    36,
+    43
+   ]
+  },
+  "C55": {
+   "label": "C55",
+   "index": 55,
+   "fidelity": 0.937,
+   "qubits_index": [
+    37,
+    44
+   ]
+  },
+  "C56": {
+   "label": "C56",
+   "index": 56,
+   "fidelity": 0.0,
+   "qubits_index": [
+    38,
+    45
+   ]
+  },
+  "C57": {
+   "label": "C57",
+   "index": 57,
+   "fidelity": 0.0,
+   "qubits_index": [
+    39,
+    46
+   ]
+  },
+  "C58": {
+   "label": "C58",
+   "index": 58,
+   "fidelity": 0.988,
+   "qubits_index": [
+    40,
+    47
+   ]
+  },
+  "C59": {
+   "label": "C59",
+   "index": 59,
+   "fidelity": 0.932,
+   "qubits_index": [
+    41,
+    48
+   ]
+  },
+  "C60": {
+   "label": "C60",
+   "index": 60,
+   "fidelity": 0.996,
+   "qubits_index": [
+    42,
+    49
+   ]
+  },
+  "C61": {
+   "label": "C61",
+   "index": 61,
+   "fidelity": 0.999,
+   "qubits_index": [
+    43,
+    49
+   ]
+  },
+  "C62": {
+   "label": "C62",
+   "index": 62,
+   "fidelity": 0.0,
+   "qubits_index": [
+    43,
+    50
+   ]
+  },
+  "C63": {
+   "label": "C63",
+   "index": 63,
+   "fidelity": 0.0,
+   "qubits_index": [
+    44,
+    50
+   ]
+  },
+  "C64": {
+   "label": "C64",
+   "index": 64,
+   "fidelity": 0.991,
+   "qubits_index": [
+    44,
+    51
+   ]
+  },
+  "C65": {
+   "label": "C65",
+   "index": 65,
+   "fidelity": 0.893,
+   "qubits_index": [
+    45,
+    51
+   ]
+  },
+  "C66": {
+   "label": "C66",
+   "index": 66,
+   "fidelity": 0.996,
+   "qubits_index": [
+    45,
+    52
+   ]
+  },
+  "C67": {
+   "label": "C67",
+   "index": 67,
+   "fidelity": 0.759,
+   "qubits_index": [
+    46,
+    52
+   ]
+  },
+  "C68": {
+   "label": "C68",
+   "index": 68,
+   "fidelity": 0.992,
+   "qubits_index": [
+    46,
+    53
+   ]
+  },
+  "C69": {
+   "label": "C69",
+   "index": 69,
+   "fidelity": 0.963,
+   "qubits_index": [
+    47,
+    53
+   ]
+  },
+  "C70": {
+   "label": "C70",
+   "index": 70,
+   "fidelity": 0.249,
+   "qubits_index": [
+    47,
+    54
+   ]
+  },
+  "C71": {
+   "label": "C71",
+   "index": 71,
+   "fidelity": 0.994,
+   "qubits_index": [
+    48,
+    54
+   ]
+  },
+  "C72": {
+   "label": "C72",
+   "index": 72,
+   "fidelity": 0.0,
+   "qubits_index": [
+    48,
+    55
+   ]
+  },
+  "C73": {
+   "label": "C73",
+   "index": 73,
+   "fidelity": 0.0,
+   "qubits_index": [
+    49,
+    56
+   ]
+  },
+  "C74": {
+   "label": "C74",
+   "index": 74,
+   "fidelity": 0.0,
+   "qubits_index": [
+    50,
+    57
+   ]
+  },
+  "C75": {
+   "label": "C75",
+   "index": 75,
+   "fidelity": 0.0,
+   "qubits_index": [
+    51,
+    58
+   ]
+  },
+  "C76": {
+   "label": "C76",
+   "index": 76,
+   "fidelity": 0.997,
+   "qubits_index": [
+    52,
+    59
+   ]
+  },
+  "C77": {
+   "label": "C77",
+   "index": 77,
+   "fidelity": 0.968,
+   "qubits_index": [
+    53,
+    60
+   ]
+  },
+  "C78": {
+   "label": "C78",
+   "index": 78,
+   "fidelity": 0.976,
+   "qubits_index": [
+    54,
+    61
+   ]
+  },
+  "C79": {
+   "label": "C79",
+   "index": 79,
+   "fidelity": 0.0,
+   "qubits_index": [
+    55,
+    62
+   ]
+  },
+  "C80": {
+   "label": "C80",
+   "index": 80,
+   "fidelity": 0.0,
+   "qubits_index": [
+    56,
+    63
+   ]
+  },
+  "C81": {
+   "label": "C81",
+   "index": 81,
+   "fidelity": 0.0,
+   "qubits_index": [
+    57,
+    63
+   ]
+  },
+  "C82": {
+   "label": "C82",
+   "index": 82,
+   "fidelity": 0.0,
+   "qubits_index": [
+    57,
+    64
+   ]
+  },
+  "C83": {
+   "label": "C83",
+   "index": 83,
+   "fidelity": 0.0,
+   "qubits_index": [
+    58,
+    64
+   ]
+  },
+  "C84": {
+   "label": "C84",
+   "index": 84,
+   "fidelity": 0.0,
+   "qubits_index": [
+    58,
+    65
+   ]
+  },
+  "C85": {
+   "label": "C85",
+   "index": 85,
+   "fidelity": 0.997,
+   "qubits_index": [
+    59,
+    65
+   ]
+  },
+  "C86": {
+   "label": "C86",
+   "index": 86,
+   "fidelity": 0.0,
+   "qubits_index": [
+    59,
+    66
+   ]
+  },
+  "C87": {
+   "label": "C87",
+   "index": 87,
+   "fidelity": 0.912,
+   "qubits_index": [
+    60,
+    66
+   ]
+  },
+  "C88": {
+   "label": "C88",
+   "index": 88,
+   "fidelity": 0.944,
+   "qubits_index": [
+    60,
+    67
+   ]
+  },
+  "C89": {
+   "label": "C89",
+   "index": 89,
+   "fidelity": 0.971,
+   "qubits_index": [
+    61,
+    67
+   ]
+  },
+  "C90": {
+   "label": "C90",
+   "index": 90,
+   "fidelity": 0.874,
+   "qubits_index": [
+    61,
+    68
+   ]
+  },
+  "C91": {
+   "label": "C91",
+   "index": 91,
+   "fidelity": 0.95,
+   "qubits_index": [
+    62,
+    68
+   ]
+  },
+  "C92": {
+   "label": "C92",
+   "index": 92,
+   "fidelity": 0.996,
+   "qubits_index": [
+    62,
+    69
+   ]
+  },
+  "C93": {
+   "label": "C93",
+   "index": 93,
+   "fidelity": 0.976,
+   "qubits_index": [
+    63,
+    70
+   ]
+  },
+  "C94": {
+   "label": "C94",
+   "index": 94,
+   "fidelity": 0.995,
+   "qubits_index": [
+    64,
+    71
+   ]
+  },
+  "C95": {
+   "label": "C95",
+   "index": 95,
+   "fidelity": 0.914,
+   "qubits_index": [
+    65,
+    72
+   ]
+  },
+  "C96": {
+   "label": "C96",
+   "index": 96,
+   "fidelity": 0.0,
+   "qubits_index": [
+    66,
+    73
+   ]
+  },
+  "C97": {
+   "label": "C97",
+   "index": 97,
+   "fidelity": 0.0,
+   "qubits_index": [
+    67,
+    74
+   ]
+  },
+  "C98": {
+   "label": "C98",
+   "index": 98,
+   "fidelity": 0.0,
+   "qubits_index": [
+    68,
+    75
+   ]
+  },
+  "C99": {
+   "label": "C99",
+   "index": 99,
+   "fidelity": 0.0,
+   "qubits_index": [
+    69,
+    76
+   ]
+  },
+  "C100": {
+   "label": "C100",
+   "index": 100,
+   "fidelity": 0.0,
+   "qubits_index": [
+    70,
+    77
+   ]
+  },
+  "C101": {
+   "label": "C101",
+   "index": 101,
+   "fidelity": 0.0,
+   "qubits_index": [
+    71,
+    77
+   ]
+  },
+  "C102": {
+   "label": "C102",
+   "index": 102,
+   "fidelity": 0.0,
+   "qubits_index": [
+    71,
+    78
+   ]
+  },
+  "C103": {
+   "label": "C103",
+   "index": 103,
+   "fidelity": 0.0,
+   "qubits_index": [
+    72,
+    78
+   ]
+  },
+  "C104": {
+   "label": "C104",
+   "index": 104,
+   "fidelity": 0.0,
+   "qubits_index": [
+    72,
+    79
+   ]
+  },
+  "C105": {
+   "label": "C105",
+   "index": 105,
+   "fidelity": 0.0,
+   "qubits_index": [
+    73,
+    79
+   ]
+  },
+  "C106": {
+   "label": "C106",
+   "index": 106,
+   "fidelity": 0.0,
+   "qubits_index": [
+    73,
+    80
+   ]
+  },
+  "C107": {
+   "label": "C107",
+   "index": 107,
+   "fidelity": 0.0,
+   "qubits_index": [
+    74,
+    80
+   ]
+  },
+  "C108": {
+   "label": "C108",
+   "index": 108,
+   "fidelity": 0.0,
+   "qubits_index": [
+    74,
+    81
+   ]
+  },
+  "C109": {
+   "label": "C109",
+   "index": 109,
+   "fidelity": 0.0,
+   "qubits_index": [
+    75,
+    81
+   ]
+  },
+  "C110": {
+   "label": "C110",
+   "index": 110,
+   "fidelity": 0.0,
+   "qubits_index": [
+    75,
+    82
+   ]
+  },
+  "C111": {
+   "label": "C111",
+   "index": 111,
+   "fidelity": 0.0,
+   "qubits_index": [
+    76,
+    82
+   ]
+  },
+  "C112": {
+   "label": "C112",
+   "index": 112,
+   "fidelity": 0.0,
+   "qubits_index": [
+    76,
+    83
+   ]
+  }
+ },
+ "global_info": {
+  "one_qubit_gate_length": 0,
+  "two_qubit_gate_length": 0,
+  "two_qubit_gate_basis": "CZ",
+  "nqubits_available": 84,
+  "ncouplers_available": 113,
+  "T1_median": 90.508,
+  "T1_average": 93.415,
+  "T1_max": 200.0,
+  "T1_min": 18.614,
+  "T2_median": 8.067,
+  "T2_average": 9.338,
+  "T2_max": 68.35,
+  "T2_min": 1.199,
+  "frequency_median": 4.176,
+  "frequency_average": 4.157,
+  "frequency_max": 4.515,
+  "frequency_min": 3.593,
+  "readout_frequency_median": 7.059,
+  "readout_frequency_average": 7.057,
+  "readout_frequency_max": 7.302,
+  "readout_frequency_min": 6.807,
+  "single_qubit_gate_fidelity_median": 0.999,
+  "single_qubit_gate_fidelity_average": 0.997,
+  "single_qubit_gate_fidelity_max": 1.0,
+  "single_qubit_gate_fidelity_min": 0.945,
+  "error_rate_1q": 0.0006,
+  "two_qubit_gate_fidelity_median": 0.953,
+  "two_qubit_gate_fidelity_average": 0.882,
+  "two_qubit_gate_fidelity_max": 0.999,
+  "two_qubit_gate_fidelity_min": 0.249,
+  "error_rate_2q": 0.04658,
+  "valid_qubits_label": [
+   "T1",
+   "T2",
+   "frequency",
+   "fidelity"
+  ],
+  "DR_id": 17
+ }
+}

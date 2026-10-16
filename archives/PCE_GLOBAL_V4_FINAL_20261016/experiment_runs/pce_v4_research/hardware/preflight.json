@@ -1,0 +1,15 @@
+{
+ "utc": "2026-10-15T07:05:37.434909+00:00",
+ "chip": "Dongling",
+ "reachable": true,
+ "queue": {
+  "Baihua": 9287,
+  "Dongling": 0,
+  "Hongluo": "Calibrating",
+  "Ling": "Calibrating",
+  "Shenglian": 116
+ },
+ "n_qubits": 84,
+ "submitted_tasks": 0,
+ "quota": "既有接口未公开独立余额字段；本轮仅使用原凭据已有权限，不购买额度。"
+}

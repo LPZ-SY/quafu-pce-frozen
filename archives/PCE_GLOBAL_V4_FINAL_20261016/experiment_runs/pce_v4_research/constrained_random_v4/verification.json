@@ -1,0 +1,250 @@
+{
+ "passed": true,
+ "seed_blocks": 30,
+ "rows": 11520,
+ "candidate_draws": 7864320,
+ "failed_candidate_constructions": 0,
+ "checks": "核对全部主种子、64批、六预算前缀选优、候选重试数、原始及最终容量、客户完整性、精修预算和来源哈希；每种子首批的所有原始及最终路线用原函数复算。",
+ "records": [
+  {
+   "instance": "B-n31-k5",
+   "seed": 2001,
+   "rows": 384,
+   "candidate_draws": 262144,
+   "failed_candidate_constructions": 0,
+   "construction_attempts": 262144
+  },
+  {
+   "instance": "B-n31-k5",
+   "seed": 2002,
+   "rows": 384,
+   "candidate_draws": 262144,
+   "failed_candidate_constructions": 0,
+   "construction_attempts": 262145
+  },
+  {
+   "instance": "B-n31-k5",
+   "seed": 2003,
+   "rows": 384,
+   "candidate_draws": 262144,
+   "failed_candidate_constructions": 0,
+   "construction_attempts": 262144
+  },
+  {
+   "instance": "B-n31-k5",
+   "seed": 2004,
+   "rows": 384,
+   "candidate_draws": 262144,
+   "failed_candidate_constructions": 0,
+   "construction_attempts": 262144
+  },
+  {
+   "instance": "B-n31-k5",
+   "seed": 2005,
+   "rows": 384,
+   "candidate_draws": 262144,
+   "failed_candidate_constructions": 0,
+   "construction_attempts": 262144
+  },
+  {
+   "instance": "B-n31-k5",
+   "seed": 2006,
+   "rows": 384,
+   "candidate_draws": 262144,
+   "failed_candidate_constructions": 0,
+   "construction_attempts": 262144
+  },
+  {
+   "instance": "B-n31-k5",
+   "seed": 2007,
+   "rows": 384,
+   "candidate_draws": 262144,
+   "failed_candidate_constructions": 0,
+   "construction_attempts": 262144
+  },
+  {
+   "instance": "B-n31-k5",
+   "seed": 2008,
+   "rows": 384,
+   "candidate_draws": 262144,
+   "failed_candidate_constructions": 0,
+   "construction_attempts": 262144
+  },
+  {
+   "instance": "B-n31-k5",
+   "seed": 2009,
+   "rows": 384,
+   "candidate_draws": 262144,
+   "failed_candidate_constructions": 0,
+   "construction_attempts": 262144
+  },
+  {
+   "instance": "B-n31-k5",
+   "seed": 2010,
+   "rows": 384,
+   "candidate_draws": 262144,
+   "failed_candidate_constructions": 0,
+   "construction_attempts": 262144
+  },
+  {
+   "instance": "B-n31-k5",
+   "seed": 2011,
+   "rows": 384,
+   "candidate_draws": 262144,
+   "failed_candidate_constructions": 0,
+   "construction_attempts": 262144
+  },
+  {
+   "instance": "B-n31-k5",
+   "seed": 2012,
+   "rows": 384,
+   "candidate_draws": 262144,
+   "failed_candidate_constructions": 0,
+   "construction_attempts": 262144
+  },
+  {
+   "instance": "B-n31-k5",
+   "seed": 2013,
+   "rows": 384,
+   "candidate_draws": 262144,
+   "failed_candidate_constructions": 0,
+   "construction_attempts": 262145
+  },
+  {
+   "instance": "B-n31-k5",
+   "seed": 2014,
+   "rows": 384,
+   "candidate_draws": 262144,
+   "failed_candidate_constructions": 0,
+   "construction_attempts": 262144
+  },
+  {
+   "instance": "B-n31-k5",
+   "seed": 2015,
+   "rows": 384,
+   "candidate_draws": 262144,
+   "failed_candidate_constructions": 0,
+   "construction_attempts": 262144
+  },
+  {
+   "instance": "B-n31-k5",
+   "seed": 2016,
+   "rows": 384,
+   "candidate_draws": 262144,
+   "failed_candidate_constructions": 0,
+   "construction_attempts": 262144
+  },
+  {
+   "instance": "B-n31-k5",
+   "seed": 2017,
+   "rows": 384,
+   "candidate_draws": 262144,
+   "failed_candidate_constructions": 0,
+   "construction_attempts": 262144
+  },
+  {
+   "instance": "B-n31-k5",
+   "seed": 2018,
+   "rows": 384,
+   "candidate_draws": 262144,
+   "failed_candidate_constructions": 0,
+   "construction_attempts": 262144
+  },
+  {
+   "instance": "B-n31-k5",
+   "seed": 2019,
+   "rows": 384,
+   "candidate_draws": 262144,
+   "failed_candidate_constructions": 0,
+   "construction_attempts": 262144
+  },
+  {
+   "instance": "B-n31-k5",
+   "seed": 2020,
+   "rows": 384,
+   "candidate_draws": 262144,
+   "failed_candidate_constructions": 0,
+   "construction_attempts": 262144
+  },
+  {
+   "instance": "A-n45-k7",
+   "seed": 3001,
+   "rows": 384,
+   "candidate_draws": 262144,
+   "failed_candidate_constructions": 0,
+   "construction_attempts": 266582
+  },
+  {
+   "instance": "A-n45-k7",
+   "seed": 3002,
+   "rows": 384,
+   "candidate_draws": 262144,
+   "failed_candidate_constructions": 0,
+   "construction_attempts": 266622
+  },
+  {
+   "instance": "A-n45-k7",
+   "seed": 3003,
+   "rows": 384,
+   "candidate_draws": 262144,
+   "failed_candidate_constructions": 0,
+   "construction_attempts": 266633
+  },
+  {
+   "instance": "A-n45-k7",
+   "seed": 3004,
+   "rows": 384,
+   "candidate_draws": 262144,
+   "failed_candidate_constructions": 0,
+   "construction_attempts": 266639
+  },
+  {
+   "instance": "A-n45-k7",
+   "seed": 3005,
+   "rows": 384,
+   "candidate_draws": 262144,
+   "failed_candidate_constructions": 0,
+   "construction_attempts": 266773
+  },
+  {
+   "instance": "A-n45-k7",
+   "seed": 3006,
+   "rows": 384,
+   "candidate_draws": 262144,
+   "failed_candidate_constructions": 0,
+   "construction_attempts": 266613
+  },
+  {
+   "instance": "A-n45-k7",
+   "seed": 3007,
+   "rows": 384,
+   "candidate_draws": 262144,
+   "failed_candidate_constructions": 0,
+   "construction_attempts": 266675
+  },
+  {
+   "instance": "A-n45-k7",
+   "seed": 3008,
+   "rows": 384,
+   "candidate_draws": 262144,
+   "failed_candidate_constructions": 0,
+   "construction_attempts": 266662
+  },
+  {
+   "instance": "A-n45-k7",
+   "seed": 3009,
+   "rows": 384,
+   "candidate_draws": 262144,
+   "failed_candidate_constructions": 0,
+   "construction_attempts": 266636
+  },
+  {
+   "instance": "A-n45-k7",
+   "seed": 3010,
+   "rows": 384,
+   "candidate_draws": 262144,
+   "failed_candidate_constructions": 0,
+   "construction_attempts": 266636
+  }
+ ]
+}

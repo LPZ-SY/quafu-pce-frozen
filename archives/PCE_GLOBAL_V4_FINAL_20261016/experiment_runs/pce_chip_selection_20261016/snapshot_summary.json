@@ -1,0 +1,80 @@
+[
+ {
+  "chip": "Baihua",
+  "retrieved_utc": "2026-10-16T02:45:03.462553+00:00",
+  "queue": 1530,
+  "calibration_time": "2026-10-16 08:44:56",
+  "qubits": 156,
+  "couplers": 182,
+  "available": true,
+  "calibration_fields": [
+   "size",
+   "basis_gates",
+   "priority_qubits",
+   "calibration_time",
+   "qubits_info",
+   "couplers_info",
+   "global_info"
+  ]
+ },
+ {
+  "chip": "Dongling",
+  "retrieved_utc": "2026-10-16T02:45:07.127175+00:00",
+  "queue": 147,
+  "calibration_time": "2026-10-16 08:44:58",
+  "qubits": 84,
+  "couplers": 113,
+  "available": true,
+  "calibration_fields": [
+   "size",
+   "basis_gates",
+   "priority_qubits",
+   "calibration_time",
+   "qubits_info",
+   "couplers_info",
+   "global_info"
+  ]
+ },
+ {
+  "chip": "Hongluo",
+  "retrieved_utc": "2026-10-16T02:45:11.990262+00:00",
+  "queue": "Calibrating",
+  "calibration_time": "2026-05-14 12:24:38",
+  "qubits": 84,
+  "couplers": 113,
+  "available": true,
+  "calibration_fields": [
+   "size",
+   "basis_gates",
+   "priority_qubits",
+   "calibration_time",
+   "qubits_info",
+   "couplers_info",
+   "global_info"
+  ]
+ },
+ {
+  "chip": "Ling",
+  "retrieved_utc": "2026-10-16T02:45:11.991208+00:00",
+  "available": false,
+  "error_type": "ValueError"
+ },
+ {
+  "chip": "Shenglian",
+  "retrieved_utc": "2026-10-16T02:45:18.203778+00:00",
+  "queue": 5268,
+  "calibration_time": "2026-10-16 08:44:58",
+  "qubits": 84,
+  "couplers": 113,
+  "available": true,
+  "calibration_fields": [
+   "size",
+   "basis_gates",
+   "priority_qubits",
+   "calibration_time",
+   "qubits_info",
+   "couplers_info",
+   "global_info"
+  ]
+ }
+]
